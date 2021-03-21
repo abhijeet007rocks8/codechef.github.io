@@ -1,0 +1,21 @@
+{
+  "name": "codechef-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "10.0.9",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-icons": "^3.11.0",
+    "react-lottie": "^1.2.3",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.12.0"
+  }
+}

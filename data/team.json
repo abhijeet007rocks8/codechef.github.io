@@ -1,0 +1,81 @@
+{
+    "teammember":[
+        {
+            "name":"Name Here",
+            "title":"Title here",
+            "profilepic":"https://i.pinimg.com/originals/bb/43/97/bb4397176c80ee5b1c933398a8ce1f8e.png",
+            "description":"Description1",
+            "social":{
+                "linkedin":"Link1",
+                "github":"link2",
+                "twitter":"link3"
+            }
+        },
+        {
+           "name":"Name Here",
+            "title":"Title here",
+            "profilepic":"https://th.bing.com/th/id/OIP.-NUAri5WsnouIYyNrAc9xQHaJ4?pid=ImgDet&rs=1",
+            "description":"Description1",
+            "social":{
+                "linkedin":"Link1",
+                "github":"Link1",
+                "twitter":"Link1"
+            } 
+        },
+        {
+            "name":"Name Here",
+             "title":"Title here",
+             "profilepic":"https://i.pinimg.com/originals/bb/43/97/bb4397176c80ee5b1c933398a8ce1f8e.png",
+             "description":"Description1",
+             "social":{
+                 "linkedin":"Link1",
+                 "github":"Link1",
+                 "twitter":"Link1"
+             } 
+         },
+         {
+            "name":"Name Here",
+             "title":"Title here",
+             "profilepic":"https://i.pinimg.com/originals/bb/43/97/bb4397176c80ee5b1c933398a8ce1f8e.png",
+             "description":"Description1",
+             "social":{
+                 "linkedin":"Link1",
+                 "github":"Link1",
+                 "twitter":"Link1"
+             } 
+         },
+         {
+            "name":"Name Here",
+             "title":"Title here",
+             "profilepic":"https://i.pinimg.com/originals/bb/43/97/bb4397176c80ee5b1c933398a8ce1f8e.png",
+             "description":"Description1",
+             "social":{
+                 "linkedin":"Link1",
+                 "github":"Link1",
+                 "twitter":"Link1"
+             } 
+         },
+         {
+            "name":"Name Here",
+             "title":"Title here",
+             "profilepic":"https://i.pinimg.com/originals/bb/43/97/bb4397176c80ee5b1c933398a8ce1f8e.png",
+             "description":"Description1",
+             "social":{
+                 "linkedin":"Link1",
+                 "github":"Link1",
+                 "twitter":"Link1"
+             } 
+         },
+         {
+            "name":"Name Here",
+             "title":"Title here",
+             "profilepic":"https://i.pinimg.com/originals/bb/43/97/bb4397176c80ee5b1c933398a8ce1f8e.png",
+             "description":"Description1",
+             "social":{
+                 "linkedin":"Link1",
+                 "github":"Link1",
+                 "twitter":"Link1"
+             } 
+         }
+    ]
+}
