@@ -4,23 +4,35 @@ import React, { useState } from 'react'
 import {RiTwitterLine} from "react-icons/ri";
 import {FaGithubAlt} from "react-icons/fa"
 import {AiOutlineLinkedin} from "react-icons/ai"
-import {Name,Img,LineB,Job, Heading ,Card, Description, Profile, Social, Details, DisplayGrid} from "./team-styles.js"
+import {Name,Img,LineB,Job, Heading ,Card, Description, DescriptionContent, Profile, Social, Details, DisplayGrid} from "./team-styles.js"
 import teamdata from "../../data/team.json"
 
 
+
 const Team = ()=>{
-    return (
-        <>
+    
+   return (
+      <html lang="en">
+        <head>
+        <style>
+         @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+       </style>
+        </head>
     {/* <Header/> */}
+    <body>
     <Heading>OUR TEAM</Heading>
-    <DisplayGrid>
+    <DisplayGrid>   
         {teamdata['teammember'].map((node) => (
         <div style={{display:"flex",justifyContent:"center",flexDirection:"column",alignItems:"center"}}>
         <Profile>
         <Card>
            <Img>
            <img src={node.profilepic} width="100%"></img>
-           <Description>{node.description}</Description>
+              <Description>
+                  <DescriptionContent>
+                   {node.description}
+                  </DescriptionContent>
+              </Description>
            </Img>
         </Card>
          <Social>
@@ -38,7 +50,8 @@ const Team = ()=>{
           ))}
     </DisplayGrid>
        {/* <footer/> */}
-       </>
+       </body>
+       </html>
     )
 };
 export default Team;

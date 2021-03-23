@@ -96,11 +96,42 @@ export const Img=styled.div`
     -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
     clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
     border: 3px solid #102E46;
+    position: relative;
 `;
 export const Description=styled.span`
+    position: absolute;
     opacity:60%;
-    color:#000000;
-    z-index:20;
+    top:0;
+    left:0;
     width:100%;
     height:100%;
+    background: rgba(0,0,0,0.6);
+    font-family: "Quicksand" ,sans-serif;
+    color:#ffffff;
+    font-weight:bold;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    backdrop-filter:blur(3px);
+    opacity:0;
+    transition: opacity 0.75s;
+    
+    p${DescriptionContent}{
+        transform: translateY(30px);
+        transition: transform 0.75s;
+    }
+    
+    :hover{
+        opacity:1;
+
+        p${DescriptionContent}{
+            transform: translateY(0px);
+        }
+    }
+`;
+export const DescriptionContent=styled.p`
+    font-size:1.25rem;
+    margin-top:0.15rem;
+    display:flex;
+    justify-content:center;
 `;
