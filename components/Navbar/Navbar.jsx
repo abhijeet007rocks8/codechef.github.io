@@ -1,23 +1,23 @@
-import React, { useEffect, useState } from "react";
-import styled from "styled-components";
-import { useRouter } from "next/router";
-import Link from "next/link";
+// import React, { useEffect, useState } from "react";
+// import styled from "styled-components";
+// import { useRouter } from "next/router";
+// import Link from "next/link";
 // import { FiMoon, FiSun, FiMenu, FiX } from "react-icons/fi";
 
-// // import { lightTheme } from "../../../styles/theme";
+// // // import { lightTheme } from "../../../styles/theme";
 
 // import {
 //   Nav,
 //   NavItem,
 //   Brand,
-//   NavListWrapper,
+//  // NavListWrapper,
 //   MobileMenu,
 //   Mobile,
 //   ActionsContainer,
-// } from "./style";
+// } from "./nav-styles";
 
-// // import Logo from "./logo";
-// // import { Container } from "../../global";
+// // // import Logo from "./logo";
+// // // import { Container } from "../../global";
 
 // const NAV_ITEMS = [
 //   { title: "Home", link: "/" },
@@ -25,16 +25,16 @@ import Link from "next/link";
 //   { title: "Articles", link: "/articles" },
 //   { title: "Events", link: "/events" },
 //   // { title: "Badges", link: "/badges" },
-//   { title: "Certificates", link: "/certificates" }
+//   { title: "LeaderBoard", link: "/leaderboard" }
 // ];
 
 // const Navbar = (props) => {
 //   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 //   const [hasScrolled, setHasScrolled] = useState(false);
 
-//   const router = useRouter();
+//      //const router = useRouter();
 
-//   const handleScroll = (event) => {
+//    const handleScroll = (event) => {
 //     const scrollTop = window.pageYOffset;
 //     if (scrollTop > 32) {
 //       setHasScrolled(true);

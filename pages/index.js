@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Navbar from '../components/header'
 import Team from './Team/team.jsx'
+import Events from './Events/Events'
+import Articles from './Articles/Articles'
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
 
       <main className={styles.main}>
         {/* <Navbar/> */}
-        <Team />
+        < Articles/>
       </main>
 
       <footer className={styles.footer}>

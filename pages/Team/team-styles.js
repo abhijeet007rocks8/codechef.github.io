@@ -6,6 +6,13 @@ export const screen={
     md: "992px",
     lg: "1199px",
   };
+
+export const Container = styled.div`
+  display:block;
+  justify-content:center;
+  align-items:center;
+`;
+
 export const DisplayGrid = styled.div`
     padding:1rem;
     display: grid;
@@ -98,6 +105,15 @@ export const Img=styled.div`
     border: 3px solid #102E46;
     position: relative;
 `;
+
+export const DescriptionContent=styled.p`
+    font-size:1.25rem;
+    margin-top:0.15rem;
+    display:flex;
+    justify-content:center;
+`;
+
+
 export const Description=styled.span`
     position: absolute;
     opacity:60%;
@@ -128,10 +144,4 @@ export const Description=styled.span`
             transform: translateY(0px);
         }
     }
-`;
-export const DescriptionContent=styled.p`
-    font-size:1.25rem;
-    margin-top:0.15rem;
-    display:flex;
-    justify-content:center;
 `;
