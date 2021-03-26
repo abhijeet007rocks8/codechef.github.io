@@ -13,37 +13,36 @@ export const Container = styled.div`
   align-items:center;
 `;
 
-export const DisplayGrid = styled.div`
-    padding:1rem;
-    display: grid;
-    width:97%;
+export const DisplayFlex = styled.div`
+    padding:.2rem;
+    display: flex;
+    margin:2rem;
+    width:-webkit-fill-available;
+    align-items:center;
+    justify-content:center;
+    align-self:center;
     overflow-x: hidden;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 2rem;
-    grid-row-gap:2rem;
+    flex-direction:column;
     @media (max-width: 1024px){
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 2rem;
+        
     }
     @media (max-width: 768px) {
-        grid-template-columns: 1fr;
-        padding:.8rem;
+        
     }
     @media (max-width: 576px) {
-        grid-template-columns: 1fr;
-        padding: .5rem;
+    
     }
 `;
 
 export const Card=styled.span`
     display:flex;
-    width: fit-content;
+    width: -webkit-fill-available;
     height: fit-content;
-    background:#fff000;
-    flex-direction:column;
+    //background:#fff000;
     border-radius:1rem;
     overflow:hidden;
-    //border: 3px solid #102E46;
+    border: 3px solid #102E46;
+    margin:1rem;
 `;
 
 export const Heading=styled.div`
@@ -70,11 +69,24 @@ export const Details=styled.div`
 `;
 
 export const Img=styled.div` 
-  border-radius:2rem;
+  margin:1rem;
 `;
 
 export const Title=styled.div`
     font-family:"Quicksand",sans-serif;
     font-size:1.5rem;
     margin-left:1rem;
+`;
+
+export const Description=styled.div`
+    display:flex;
+    margin-top:2rem;
+    flex-direction:column;
+    flex-wrap:wrap;
+    width:60%;
+    padding:1rem;
+    border-radius: 30px;
+    background: #FFFFFF;
+    box-shadow:  21px 21px 41px #bababa,
+             -21px -21px 41px #ffffff;
 `;

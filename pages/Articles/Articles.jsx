@@ -1,6 +1,6 @@
 import React from 'react'
 import events from "../../data/events.json"
-import {Container, Title ,Img, Heading ,Card,Details, DisplayGrid} from "./style-article.js"
+import {Container, Title ,Img, Heading ,Card,Details, DisplayFLex, DisplayFlex} from "./style-article.js"
 import Footer from '../../components/Footer/Footer';
 
 const Articles = () =>{
@@ -8,7 +8,7 @@ const Articles = () =>{
         <>
         <Heading>ARTICLES</Heading>
         <Container>
-        <DisplayGrid>   
+        <DisplayFlex>   
             {events['events'].map((node) => (
             <div style={{display:"flex",justifyContent:"center",flexDirection:"column",alignItems:"center",alignSelf:"center"}}>
             <a href={node.link}>
@@ -26,7 +26,7 @@ const Articles = () =>{
             </a>
             </div>
               ))}
-        </DisplayGrid>
+        </DisplayFlex>
            {/* <footer/> */}
            </Container>
            <Footer/>    

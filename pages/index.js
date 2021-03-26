@@ -14,7 +14,8 @@ export default function Home() {
 
       <main className={styles.main}>
         {/* <Navbar/> */}
-        < Articles/>
+        {/* < Articles/> */}
+        <Events/>
       </main>
 
       <footer className={styles.footer}>

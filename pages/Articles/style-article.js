@@ -13,25 +13,20 @@ export const Container = styled.div`
   align-items:center;
 `;
 
-export const DisplayGrid = styled.div`
+export const DisplayFlex = styled.div`
     padding:1rem;
-    display: grid;
+    display: flex;
+    flex-direction:column;
     width:97%;
     overflow-x: hidden;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 2rem;
-    grid-row-gap:2rem;
     @media (max-width: 1024px){
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 2rem;
+        
     }
     @media (max-width: 768px) {
-        grid-template-columns: 1fr;
-        padding:.8rem;
+        
     }
     @media (max-width: 576px) {
-        grid-template-columns: 1fr;
-        padding: .5rem;
+        
     }
 `;
 
@@ -40,7 +35,6 @@ export const Card=styled.span`
     width: fit-content;
     height: fit-content;
     background:#fff000;
-    flex-direction:column;
     border-radius:1rem;
     overflow:hidden;
     //border: 3px solid #102E46;
