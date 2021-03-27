@@ -14,11 +14,15 @@ export const Container = styled.div`
 `;
 
 export const DisplayFlex = styled.div`
-    padding:1rem;
+    padding:.2rem;
     display: flex;
-    flex-direction:column;
-    width:97%;
+    margin:2rem;
+    width:-webkit-fill-available;
+    align-items:center;
+    justify-content:center;
+    align-self:center;
     overflow-x: hidden;
+    flex-direction:column;
     @media (max-width: 1024px){
         
     }
@@ -26,18 +30,46 @@ export const DisplayFlex = styled.div`
         
     }
     @media (max-width: 576px) {
-        
+      margin:.5rem;
     }
 `;
 
 export const Card=styled.span`
     display:flex;
-    width: fit-content;
+    width: 100%;
+    justify-content:center;
     height: fit-content;
-    background:#fff000;
+    //background:#fff000;
+    border-radius:1rem;
+    align-items:center;
+    overflow:hidden;
+    border: 3px solid #102E46;
+    margin:1rem;
+    @media (max-width:767px)
+    {
+      flex-direction:column;
+      margin:0rem;
+      margin-bottom:.7rem;
+    }
+`;
+
+export const Cardrev=styled.span`
+    display:flex;
+    width: 100%;
+    justify-content:center;
+    height: fit-content;
+    //background:#fff000;
+    align-items:center;
     border-radius:1rem;
     overflow:hidden;
-    //border: 3px solid #102E46;
+    border: 3px solid #102E46;
+    margin:1rem;
+    @media (max-width:767px)
+    {
+      flex-direction: column-reverse;
+      margin:0rem;
+      margin-bottom:.7rem;
+    }
 `;
 
 export const Heading=styled.div`
@@ -53,22 +85,57 @@ export const Details=styled.div`
     color:grey;
     font-size:1.1rem;
     display:flex;
-    flex-direction:column;
-    //align-self:left;
-    margin-left:1rem;
-    width:100%;
+    flex-wrap:wrap;
+    margin:0.5rem 1rem;
     font-family:roboto;
     @media (max-width: 576px) {
-      width:100%; 
+      width:97%; 
+      margin:0.5rem 0.3rem;
+      font-size:1rem;
     }
 `;
 
 export const Img=styled.div` 
-  border-radius:2rem;
+  margin:1rem;
 `;
 
 export const Title=styled.div`
     font-family:"Quicksand",sans-serif;
+    flex-wrap:wrap;
     font-size:1.5rem;
-    margin-left:1rem;
+    margin: 1rem;
+    @media (max-width: 576px) {
+      width:97%; 
+      margin:0.5rem 0.3rem;
+      font-size:1.3rem;
+    }
+`;
+
+export const Description=styled.div`
+    display:flex;
+    justify-self:center;
+    flex-direction:column;
+    flex-wrap:wrap;
+    margin:0rem 1.5rem;
+    margin-bottom:.7rem;
+    width:60%;
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow:  15px 15px 30px #bababa,
+             -15px -15px 30px #ffffff;
+
+    @media (max-width: 767px) {
+        width:95%;
+    }         
+`;
+
+export const Event=styled.div`
+    display:"flex";
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width:80%;
+    @media (max-width: 767px) {
+      width:100%; 
+  }   
 `;

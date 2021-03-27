@@ -15,15 +15,17 @@ import styled from "styled-components";
 const Footer = () => (
   <Container>
     <MobileTitle>
-      Made with ❤️ by DSC Web Team | Contribute to our
-      <GithubATag href="https://github.com/DSCVITBHOPAL/dscvitbhopal.github.io">
+      {/* Made with ❤️ by DSC Web Team | Contribute to our */}
+      Coders Assemble
+      <GithubATag href="">
         {" "}
         Github
       </GithubATag>
     </MobileTitle>
     <Flex>
       <Title>
-        Made with ❤️ by Web Team | Contribute to our
+        {/* Made with ❤️ by Web Team | Contribute to our */}
+        Coders Assemble
         <GithubATag href="#">
           {" "}
           Github

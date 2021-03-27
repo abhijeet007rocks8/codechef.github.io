@@ -14,13 +14,14 @@ export default function Home() {
 
       <main className={styles.main}>
         {/* <Navbar/> */}
-        {/* < Articles/> */}
+        <Team/>
+         < Articles/>
         <Events/>
       </main>
-
+{/* 
       <footer className={styles.footer}>
         
-      </footer>
+      </footer> */}
     </div>
   )
 }

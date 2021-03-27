@@ -1,6 +1,6 @@
 import React from 'react'
 import events from "../../data/events.json"
-import {Container, Title ,Img,LineB,Job, Heading ,Card, Description, DescriptionContent, Profile, Social, Details, DisplayFlex} from "./style-events.js"
+import {Event, Title ,Img,LineB,Job, Cardrev, Heading ,Card, Description, DescriptionContent, Profile, Social, Details, DisplayFlex} from "./style-events.js"
 import Footer from '../../components/Footer/Footer';
 
 const Events = () =>{
@@ -10,8 +10,8 @@ const Events = () =>{
         <Heading>EVENTS</Heading>
         <DisplayFlex>   
             {events['events'].map((node) => (
-            <div style={{display:"flex",flexDirection:"column",alignSelf:"center",justifyContent:"center", width:"-webkit-fill-available"}}>
-            
+            // <div style={{display:"flex",flexDirection:"column",alignSelf:"center",justifyContent:"center", width:"-webkit-fill-available"}}>
+            <Event>
             {++check%2!=0 && <Card>
                <Img>
                <img src={node.eventpic} width="100%"></img>                 
@@ -26,7 +26,7 @@ const Events = () =>{
               </Description>
             </Card>}
 
-            {check%2==0 && <Card>
+            {check%2==0 && <Cardrev>
                <Description>
                 <Title>
                       {node.title}
@@ -38,8 +38,9 @@ const Events = () =>{
               <Img>
                <img src={node.eventpic} width="100%"></img>                 
                </Img>
-            </Card>} 
-            </div>
+            </Cardrev>}
+
+            </Event>
               ))}
 
         </DisplayFlex>

@@ -1,34 +1,51 @@
 import React from 'react'
-import events from "../../data/events.json"
-import {Container, Title ,Img, Heading ,Card,Details, DisplayFLex, DisplayFlex} from "./style-article.js"
+import articles from "../../data/articles.json"
+import {Event, Title ,Img,LineB,Job, Cardrev, Heading ,Card, Description, DescriptionContent, Profile, Social, Details, DisplayFlex} from "./style-article.js"
+
 import Footer from '../../components/Footer/Footer';
 
 const Articles = () =>{
+    let check=0;
     return(
         <>
         <Heading>ARTICLES</Heading>
-        <Container>
         <DisplayFlex>   
-            {events['events'].map((node) => (
-            <div style={{display:"flex",justifyContent:"center",flexDirection:"column",alignItems:"center",alignSelf:"center"}}>
-            <a href={node.link}>
-            <Card>
+            {articles['articles'].map((node) => (
+            // <div style={{display:"flex",flexDirection:"column",alignSelf:"center",justifyContent:"center", width:"-webkit-fill-available"}}>
+            <Event>
+            {++check%2!=0 && <Card>
                <Img>
                <img src={node.eventpic} width="100%"></img>                 
                </Img>
+               <Description>
                 <Title>
                       {node.title}
                 </Title>
                 <Details>
                       {node.description}
                 </Details>
-            </Card>
-            </a>
-            </div>
+              </Description>
+            </Card>}
+
+            {check%2==0 && <Cardrev>
+               <Description>
+                <Title>
+                      {node.title}
+                </Title>
+                <Details>
+                      {node.description}
+                </Details>
+              </Description>
+              <Img>
+               <img src={node.eventpic} width="100%"></img>                 
+               </Img>
+            </Cardrev>}
+
+            </Event>
               ))}
+
         </DisplayFlex>
            {/* <footer/> */}
-           </Container>
            <Footer/>    
            </>
     );
