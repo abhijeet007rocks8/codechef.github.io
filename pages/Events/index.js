@@ -3,7 +3,7 @@ import events from "../../data/events.json"
 import {Event, Title ,Img,LineB,Job, Cardrev, Heading ,Card, Description, DescriptionContent, Profile, Social, Details, DisplayFlex} from "./style-events.js"
 import Footer from '../../components/Footer/Footer';
 
-const Events = () =>{
+function Events(){
     let check=0;
     return(
         <>
@@ -50,4 +50,4 @@ const Events = () =>{
     );
 }
 
-export default Events;
+export default Events

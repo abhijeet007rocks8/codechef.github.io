@@ -103,6 +103,7 @@ export const Title=styled.div`
     font-family:"Quicksand",sans-serif;
     flex-wrap:wrap;
     font-size:1.5rem;
+    font-weight:bold;
     margin: 1rem;
     @media (max-width: 576px) {
       width:97%; 

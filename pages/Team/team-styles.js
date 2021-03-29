@@ -8,8 +8,9 @@ export const screen={
   };
 
 export const Container = styled.div`
-  display:block;
-  justify-content:center;
+  display:flex;
+  width:fit-content;
+  justify-self:center;
   align-items:center;
 `;
 

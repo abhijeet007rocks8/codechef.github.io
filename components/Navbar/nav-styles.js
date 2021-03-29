@@ -1,85 +1,119 @@
-import styled from "styled-components";
+import { FaBars } from 'react-icons/fa';
+import { NavLink as Link } from 'react-router-dom';
+import styled from 'styled-components';
 
 export const Nav = styled.nav`
-  padding: 1rem 0rem;
-  position: sticky;
-  top: 0px;
-  z-index: 1000;
-  background: ${(p) => p.theme.color.background};
-  border-bottom: 1px solid ${(p) => p.theme.color.border};
-  transition: 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+background: #63D471;
+height: 85px;
+display: flex;
+justify-content: space-between;
+padding: 0.2rem calc((100vw - 1000px) / 2);
+z-index: 12;
+/* Third Nav */
+/* justify-content: flex-start; */
 `;
 
-// const NavListWrapperProps = {
-//   mobile: boolean
-// };
 
-export const NavListWrapper = styled.div<NavListWrapperProps>`
-  display: flex;
-  flex-direction: row;
-  ${({ mobile }) =>
-    mobile &&
-    `
-        flex-direction: column;
-        margin-top: 1em;
-        > ${NavItem} {
-          margin: 0;
-          margin-top: 0.75em;
-        }
-      `};
+export const NavLink = styled(Link)`
+color: #808080;
+display: flex;
+align-items: center;
+text-decoration: none;
+padding: 0 1rem;
+height: 100%;
+cursor: pointer;
+&.active {
+	color: #000000;
+}
 `;
 
-export const NavItem = styled.div`
-  margin: 0rem 0.75rem;
-  a {
-    opacity: 0.6;
-    color: ${(p) => p.theme.color.text};
-    font-weight: 600;
-    font-size: 14px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    text-decoration: none;
-  }
-  &.active {
-    a {
-      opacity: 1;
+export const Bars = styled(FaBars)`
+display: none;
+color: #808080;
+@media screen and (max-width: 768px) {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	transform: translate(-100%, 75%);
+	font-size: 1.8rem;
+	cursor: pointer;
+}
+`;
+
+export const NavMenu = styled.div`
+display: flex;
+align-items: center;
+margin-right: -24px;
+/* Second Nav */
+/* margin-right: 24px; */
+/* Third Nav */
+/* width: 100vw;
+white-space: nowrap; */
+@media screen and (max-width: 768px) {
+	display: none;
+}
+`;
+
+export const NavBtn = styled.nav`
+display: flex;
+align-items: center;
+margin-right: 24px;
+/* Third Nav */
+/* justify-content: flex-end;
+width: 100vw; */
+@media screen and (max-width: 768px) {
+	display: none;
+}
+`;
+
+export const NavBtnLink = styled(Link)`
+border-radius: 4px;
+background: #808080;
+padding: 10px 22px;
+color: #000000;
+outline: none;
+border: none;
+cursor: pointer;
+transition: all 0.2s ease-in-out;
+text-decoration: none;
+/* Second Nav */
+margin-left: 24px;
+&:hover {
+	transition: all 0.2s ease-in-out;
+	background: #fff;
+	color: #808080;
+}
+`;
+export const MyDesktopNavbar =styled.nav`
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-evenly;
+    align-items:center;
+
+    background:transparent;
+    color:black;
+
+    .logo {
+      font-size: 7vh;
+      font-weight: bold;
+      text-shadow: 3px 3px 3px black;
     }
-  }
-`;
 
-export const MobileMenu = styled.div`
-  width: 100%;
-  height: 100vh;
-  z-index: 1000;
-`;
+    .nav-links{
+      display:flex;
+      flex-flow:row nowrap;
+      justify-content:space-evenly;
+      align-items:center;
 
-export const Brand = styled.div``;
+      width:35vw;
 
-export const ActionsContainer = styled.div`
-  display: flex;
-  align-items: center;
-  font-size: 24px;
-  &:hover {
-    cursor: pointer;
-  }
-`;
-
-// const MobileProps = {
-//   hide: boolean
-// };
-
-export const Mobile = styled.div<MobileProps>`
-  display: none;
-  @media (max-width: ${(props) => props.theme.screen.md}) {
-    display: block;
-    order: -1;
-  }
-  ${(props) =>
-    props.hide &&
-    `
-    display: block;
-    @media (max-width: ${props.theme.screen.md}) {
-      display: none;
+      list-style:none;
     }
-  `}
+
+    .link {
+      color:black;
+      font-size:2.5vh;
+      text-decoration:none;
+    }
 `;

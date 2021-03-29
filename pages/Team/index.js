@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 //import {Header} from "./header"
 //import {footer} from "./footer"
+import Navbar from '../../components/Navbar/Navbar.js'
 import {RiTwitterLine} from "react-icons/ri";
 import {FaGithubAlt} from "react-icons/fa"
 import {AiOutlineLinkedin} from "react-icons/ai"
@@ -10,16 +11,15 @@ import '../../styles/Home.module.css'
 import Footer from '../../components/Footer/Footer';
 
 
-const Team = ()=>{
+export default function Team(){
     
    return (
       <>
         <style>
          @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
        </style>
-
-    {/* <Header/> */}
-    <Heading>OUR TEAM</Heading>
+      {/* <Navbar/> */}
+  <Heading>OUR TEAM</Heading>
     <Container>
     <DisplayGrid>   
         {teamdata['teammember'].map((node) => (
@@ -55,4 +55,4 @@ const Team = ()=>{
       </> 
          )
 };
-export default Team;
+// export default Team;
