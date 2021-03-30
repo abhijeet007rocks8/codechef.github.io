@@ -1,6 +1,6 @@
 import React from 'react'
 import events from "../../data/events.json"
-import {Event, Title ,Img,LineB,Job, Cardrev, Heading ,Card, Description, DescriptionContent, Profile, Social, Details, DisplayFlex} from "./style-events.js"
+import {Event, Title ,Img, Cardrev, Heading ,Card, Description, Details, DisplayFlex} from "./style-events.js"
 import Footer from '../../components/Footer/Footer';
 
 function Events(){

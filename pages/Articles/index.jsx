@@ -1,6 +1,6 @@
 import React from 'react'
 import articles from "../../data/articles.json"
-import {Event, Title ,Img,LineB,Job, Cardrev, Heading ,Card, Description, DescriptionContent, Profile, Social, Details, DisplayFlex} from "./style-article.js"
+import {Event, Title ,Img, Cardrev, Heading ,Card, Description, Details, DisplayFlex} from "./style-article.js"
 
 import Footer from '../../components/Footer/Footer';
 

@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
         {/* <Events/>
         <Articles/> */}
         <Navbar/>
-        <Component {...pageProps}/>
+         <Component {...pageProps}/> 
       </> //{...pageProps} />
   );}
 

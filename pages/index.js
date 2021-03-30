@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import App from './_app'
+import MyApp from './_app'
 
 export default function Home() {
   return (
@@ -11,17 +11,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        {/* <Navbar/> */}
-        {/* <Leaderboard/>
-        <Team/>
-         < Articles/>
-        <Events/> */}
-        <App/>
+        <MyApp/>
       </main>
-{/* 
-      <footer className={styles.footer}>
-        
-      </footer> */}
     </div>
   )
 }
