@@ -6,7 +6,7 @@ import Image from "next/image";
 export const Nav = styled.nav`
 position: sticky;
 display: flex;
-background:blue;
+background:#4a74f5;
 top:0;
 left:0;
 flex-direction:row; 

@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
 export const Back = styled.img`
-    height:250px;
+    height:400px;
     width:100%;
     @media (max-width: 765px) {
-        height:350px;
+        height:500px;
   }
 `;
 export const BackImg = styled.div`
@@ -13,3 +13,14 @@ export const BackImg = styled.div`
     left:0;
     z-index:0;
 `;
+
+export const Logo = styled.img`
+     width:150px;
+     margin-bottom:2px;
+`;
+
+export const Copyright =styled.p`
+    display:flex;
+    flex-wrap:wrap;
+    color:white;
+`; 

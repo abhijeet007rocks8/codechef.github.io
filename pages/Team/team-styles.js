@@ -45,7 +45,6 @@ export const DisplayFlex = styled.div`
 export const DisplayGrid = styled.div`
     padding:1rem;
     display: grid;
-    width:97%;
     overflow-x: hidden;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 2rem;
@@ -65,6 +64,8 @@ export const DisplayGrid = styled.div`
 `;
 export const Profile=styled.div`
     display:flex;
+    justify-content:center;
+    align-items:center;
 `;
 export const Card=styled.span`
     display:flex;
@@ -96,6 +97,7 @@ export const Details=styled.div`
     flex-direction:column;
     align-self:left;
     width:100%;
+    margin-left:.2rem;
     font-family:roboto;
     @media (max-width: 576px) {
       width:100%; 

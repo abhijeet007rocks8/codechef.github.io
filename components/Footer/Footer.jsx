@@ -12,7 +12,7 @@ import {
   SiCodechef
 } from "react-icons/si";
 import styled from "styled-components";
-import {Back,BackImg} from './footer-style';
+import {Back,BackImg,Logo,Copyright} from './footer-style';
 
 const Footer = () => (
   <>
@@ -30,6 +30,7 @@ const Footer = () => (
       </GithubATag>
     </MobileTitle> */}
     <Flex>
+    <Logo src="/imageasset/ccwhite2.png"/>
       <Title>
         VIT BHOPAL CHAPTER
       </Title>
@@ -85,6 +86,7 @@ const Footer = () => (
         </Icon>
       </a>
       </Social>
+      <Copyright>© Copyright 2021 | CodeChef VIT Bhopal | All Rights Reserved</Copyright>
     </Flex>    
     </Container>
   </>
@@ -127,12 +129,13 @@ const MobileTitle = styled.div`
 
 const Flex = styled.div`
   display: flex;
-  margin-top:6rem;
+  margin-top:10rem;
+  flex-direction:column;
   flex-wrap:wrap;
   z-index:1;
   //flex-direction:column;
   @media (max-width: 575px) {
-    margin-top:6rem;
+    margin-top:10rem;
   }
 `;
 
@@ -156,6 +159,16 @@ const Icon = styled.div`
     width: 60px;
     height: 60px;
     font-size:1.7rem;
+  }
+  @media (max-width: 991px) {
+   font-size:1.3rem;
+   width: 45px;
+  height: 45px;
+  }
+  @media (max-width: 575px) {
+    font-size:1.1rem;
+    width: 40px;
+    height: 40px;
   }
 }`;
 
@@ -205,7 +218,7 @@ const Social = styled.div`
   display:flex;
   margin-top:1rem;
   justify-content:center;
-  margin-left:6rem;
+  //margin-left:6rem;
   flex-wrap:wrap;
   z-index:1;
   @media (max-width: 991px) {

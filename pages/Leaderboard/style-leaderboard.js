@@ -104,6 +104,7 @@ export const Details=styled.div`
 
 export const HeaderStyled = styled.div`
     font-family:"Quicksand",sans-serif;
+    background:#4a74f5;
     flex-wrap:wrap;
     display: flex;
     margin:2% 5%;
