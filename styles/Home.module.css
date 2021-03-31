@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   justify-self: center;
+  overflow-x: hidden;
 }
 
 .main {

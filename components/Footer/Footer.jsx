@@ -8,88 +8,101 @@ import {
   SiLinkedin,
   SiYoutube,
   SiMedium,
+  SiReddit,
+  SiCodechef
 } from "react-icons/si";
 import styled from "styled-components";
-
+import {Back,BackImg} from './footer-style';
 
 const Footer = () => (
-  <Container>
-    <MobileTitle>
-      {/* Made with ❤️ by DSC Web Team | Contribute to our */}
+  <>
+  
+    <BackImg>
+      <Back src="/imageasset/footer.png"/>
+    </BackImg>
+    <Container>
+         {/* <MobileTitle>
+        Made with ❤️ by DSC Web Team | Contribute to our  
       Coders Assemble
       <GithubATag href="">
         {" "}
         Github
       </GithubATag>
-    </MobileTitle>
+    </MobileTitle> */}
     <Flex>
       <Title>
-        {/* Made with ❤️ by Web Team | Contribute to our */}
-        Coders Assemble
-        <GithubATag href="#">
-          {" "}
-          Github
-        </GithubATag>
+        VIT BHOPAL CHAPTER
       </Title>
+      <Social>
       <a href="#" target="_blank">
-        <Icon>
+        <Icon style={{margin:".5rem"}}>
           <SiMedium color="#000" />
         </Icon>
       </a>
       <a href="#" target="_blank">
-        <Icon>
+        <Icon style={{margin:".5rem"}}>
           <SiFacebook color="#3b5999" />
         </Icon>
       </a>
       <a href="#" target="_blank">
-        <Icon>
+        <Icon style={{margin:".5rem"}}>
           <SiTwitter color="#55acee" />
         </Icon>
       </a>
       <a href="#" target="_blank">
-        <Icon>
+        <Icon style={{margin:".5rem"}}>
           <SiInstagram color="#e1306c" />
         </Icon>
       </a>
-      <a
-        href="#"
-        target="_blank"
-      >
-        <Icon>
+      <a href="#"target="_blank">
+        <Icon style={{margin:".5rem"}}>
           <SiYoutube color="#cd201f" />
         </Icon>
       </a>
-      <a href="#" target="_blank">
-        <Icon>
+      <a href="#" target="_blank" >
+        <Icon style={{margin:".5rem"}}>
           <SiGithub color="#333" />
         </Icon>
       </a>
       <a href="#" target="_blank">
-        <Icon>
+        <Icon style={{margin:".5rem"}}>
           <SiDiscord color="#7289da" />
         </Icon>
       </a>
       <a href="#" target="_blank">
-        <Icon>
+        <Icon style={{margin:".5rem"}}>
           <SiLinkedin color="#0077b5" />
         </Icon>
       </a>
-    </Flex>
-  </Container>
+      <a href="#" target="_blank">
+        <Icon style={{margin:".5rem"}}>
+          <SiReddit color="#0077b5" />
+        </Icon>
+      </a>
+      <a href="#" target="_blank">
+        <Icon style={{margin:".5rem"}}>
+          <SiCodechef color="#0077b5" />
+        </Icon>
+      </a>
+      </Social>
+    </Flex>    
+    </Container>
+  </>
 );
 
 export default Footer;
 
 const Title = styled.div`
-  font-size: 15px;
+  font-size: 1.7rem;
   font-weight: bolder;
+  color:white;
   text-align: left;
   padding-top: 0.5rem;
   @media (max-width: 991px) {
-    font-size: 8px;
+    font-size: 1.3rem;
   }
   @media (max-width: 575px) {
-    font-size: 10px;
+    font-size: 1.1rem;
   }
 `;
 
@@ -112,12 +125,13 @@ const MobileTitle = styled.div`
 `;
 
 const Flex = styled.div`
-  display: grid;
-  grid-template-columns: 30fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 2rem;
-  margin: 100px auto 30px auto;
-  @media (max-width: 991px) {
-    display: none;
+  display: flex;
+  margin-top:6rem;
+  justify-content:space-around;
+  flex-wrap:wrap;
+  //flex-direction:column;
+  @media (max-width: 575px) {
+    margin-top:3rem;
   }
 `;
 
@@ -155,7 +169,10 @@ const Section = styled.section`
 //     },
 //   };
 const Container = styled.div`
+  display:flex;
+  align-items:center;
   margin: 0px auto;
+  margin-top:1.5rem;
   /* Extra small devices (phones, 575px and down) */
   @media (max-width: 575px) {
     padding: 0rem 1rem;
@@ -175,5 +192,19 @@ const Container = styled.div`
   /* Extra large devices (large laptops and desktops, 1199px and up) */
   @media (min-width: 1199px) {
     max-width: 1100px;
+  }
+`;
+
+const Social = styled.div`
+  display:flex;
+  margin-top:1rem;
+  margin-left:17rem;
+  justify-content:space-around;
+  flex-wrap:wrap;
+  @media (max-width: 991px) {
+   margin-left:2rem;
+  }
+  @media (max-width: 575px) {
+    margin-left:2rem;
   }
 `;

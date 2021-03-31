@@ -122,8 +122,8 @@ export const Description=styled.div`
     width:60%;
     border-radius: 10px;
     background: #FFFFFF;
-    box-shadow:  15px 15px 30px #bababa,
-             -15px -15px 30px #ffffff;
+    box-shadow:  15px 15px 30px #bababa;
+            // -15px -15px 30px #ffffff;
 
     @media (max-width: 767px) {
         width:95%;

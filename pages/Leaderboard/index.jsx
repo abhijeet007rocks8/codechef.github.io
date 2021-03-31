@@ -6,14 +6,11 @@ import leaderboard from '../../data/leaderboard.json';
 
 
 export default function Leaderboard (){
-   console.log(leaderboard['events'])
    //leaderboard['events'].reverse()
    const [expanded, setExpanded] = useState(true);
       return(
           <>
-             <Heading>LeaderBoard</Heading>
-             {console.log(expanded)}
-             
+             <Heading>LeaderBoard</Heading> 
              {leaderboard['events'].map((node)=>(
          <div style={{display:"block", width:"-webkit-fill-available", margin:"1rem 2rem"}}>
       <HeaderStyled onClick={() => setExpanded(!expanded)}>
