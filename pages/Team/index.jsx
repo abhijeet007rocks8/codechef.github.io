@@ -5,7 +5,7 @@ import Navbar from '../../components/Navbar/Navbar.js'
 import {RiTwitterLine} from "react-icons/ri";
 import {FaGithubAlt} from "react-icons/fa"
 import {AiOutlineLinkedin} from "react-icons/ai"
-import {Container ,Name,Img,LineB,Job, Heading ,Card, Description, DescriptionContent, Profile, Social, Details, DisplayGrid} from "./team-styles.js"
+import {Container, DisplayFlex ,Name,Img,LineB,Job, Heading ,Card, Description, DescriptionContent, Profile, Social, Details, DisplayGrid} from "./team-styles.js"
 import teamdata from "../../data/team.json"
 import '../../styles/Home.module.css'
 import Footer from '../../components/Footer/Footer';
@@ -20,7 +20,7 @@ export default function Team(){
        </style>
       {/* <Navbar/> */}
   <Heading>OUR TEAM</Heading>
-    <Container>
+    <DisplayFlex>
     <DisplayGrid>   
         {teamdata['teammember'].map((node) => (
         <div style={{display:"flex",justifyContent:"center",flexDirection:"column",alignItems:"center"}}>
@@ -50,7 +50,7 @@ export default function Team(){
           ))}
     </DisplayGrid>
        {/* <footer/> */}
-       </Container>
+       </DisplayFlex>
        <Footer/>
       </> 
          )

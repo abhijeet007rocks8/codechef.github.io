@@ -8,11 +8,13 @@ export default function Home() {
       <Head>
         <title>Codechef-VIT Bhopal</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
-      <main className={styles.main}>
-        <MyApp/>
-      </main>
+      {/* <main className={styles.main}>
+        
+      </main> */}
+      
     </div>
   )
 }

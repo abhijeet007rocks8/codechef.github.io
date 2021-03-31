@@ -6,12 +6,10 @@ import LeaderBoard from './Leaderboard'
 import Navbar from '../components/Navbar/Navbar'
 
 function MyApp({ Component, pageProps }) {
-  return (<>
-        {/* <Events/>
-        <Articles/> */}
-        <Navbar/>
-         <Component {...pageProps}/> 
-      </> //{...pageProps} />
+  return (<div>
+       <Navbar/>
+       <Component {...pageProps}/> 
+      </div> 
   );}
 
 export default MyApp

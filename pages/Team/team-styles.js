@@ -12,7 +12,35 @@ export const Container = styled.div`
   width:fit-content;
   justify-self:center;
   align-items:center;
+  justify-content:center;
 `;
+
+export const DisplayFlex = styled.div`
+    padding:.2rem;
+    display: flex;
+    margin: 2rem 10rem;
+    width:-webkit-fill-available;
+    align-items:center;
+    justify-content:center;
+    justify-self:center;
+    align-self:center;
+    overflow-x: hidden;
+    flex-direction:column;
+    
+    @media (max-width: 1200px){
+        margin: 2rem;
+    }
+    @media (max-width: 1024px){
+        margin: 2rem;
+    }
+    @media (max-width: 768px) {
+        margin: 2rem;
+    }
+    @media (max-width: 576px) {
+      margin:.5rem;
+    }
+`;
+
 
 export const DisplayGrid = styled.div`
     padding:1rem;
