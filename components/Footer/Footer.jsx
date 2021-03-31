@@ -81,7 +81,7 @@ const Footer = () => (
       </a>
       <a href="#" target="_blank">
         <Icon style={{margin:".5rem"}}>
-          <SiCodechef color="#0077b5" />
+          <SiCodechef color="#0077b5"/>
         </Icon>
       </a>
       </Social>
@@ -103,6 +103,7 @@ const Title = styled.div`
   }
   @media (max-width: 575px) {
     font-size: 1.1rem;
+    padding-top:1rem;
   }
 `;
 
@@ -127,11 +128,11 @@ const MobileTitle = styled.div`
 const Flex = styled.div`
   display: flex;
   margin-top:6rem;
-  justify-content:space-around;
   flex-wrap:wrap;
+  z-index:1;
   //flex-direction:column;
   @media (max-width: 575px) {
-    margin-top:3rem;
+    margin-top:6rem;
   }
 `;
 
@@ -142,16 +143,19 @@ const GithubATag = styled.a`
 
 const Icon = styled.div`
   background: white;
-  width: 35px;
-  height: 35px;
+  width: 50px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.03);
   &:hover {
     cursor: pointer;
+    width: 60px;
+    height: 60px;
+    font-size:1.7rem;
   }
 }`;
 
@@ -171,11 +175,13 @@ const Section = styled.section`
 const Container = styled.div`
   display:flex;
   align-items:center;
+  width:100%;
   margin: 0px auto;
   margin-top:1.5rem;
   /* Extra small devices (phones, 575px and down) */
   @media (max-width: 575px) {
     padding: 0rem 1rem;
+    
   }
   /* Small devices (portrait tablets and large phones, 575px and up) */
   @media (min-width: 575px) {
@@ -198,9 +204,10 @@ const Container = styled.div`
 const Social = styled.div`
   display:flex;
   margin-top:1rem;
-  margin-left:17rem;
-  justify-content:space-around;
+  justify-content:center;
+  margin-left:6rem;
   flex-wrap:wrap;
+  z-index:1;
   @media (max-width: 991px) {
    margin-left:2rem;
   }
