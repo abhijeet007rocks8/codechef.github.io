@@ -62,6 +62,7 @@ export const DisplayGrid = styled.div`
         padding: .5rem;
     }
 `;
+
 export const Profile=styled.div`
     display:flex;
     justify-content:center;

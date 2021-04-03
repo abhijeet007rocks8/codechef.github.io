@@ -129,14 +129,16 @@ const MobileTitle = styled.div`
 
 const Flex = styled.div`
   display: flex;
-  margin-top:10rem;
+  margin-top:2rem;
+  margin-left: 0.2rem;
   flex-direction:column;
   flex-wrap:wrap;
   z-index:1;
-  //flex-direction:column;
-  @media (max-width: 575px) {
+
+  @media screen and (min-width: 767px){
     margin-top:10rem;
-  }
+    margin-left:0rem;
+}
 `;
 
 const GithubATag = styled.a`
@@ -159,6 +161,8 @@ const Icon = styled.div`
     width: 60px;
     height: 60px;
     font-size:1.7rem;
+
+     
   }
   @media (max-width: 991px) {
    font-size:1.3rem;
@@ -193,16 +197,17 @@ const Container = styled.div`
   margin-top:1.5rem;
   /* Extra small devices (phones, 575px and down) */
   @media (max-width: 575px) {
-    padding: 0rem 1rem;
+    padding: 0rem 0rem;
     
   }
   /* Small devices (portrait tablets and large phones, 575px and up) */
   @media (min-width: 575px) {
-    max-width: 520px;
   }
   /* Medium devices (landscape tablets, 767px and up) */
-  @media (min-width: 767px) {
-    max-width: 700px;
+  @media (max-width: 767px) {
+    background:#4a74f5;
+    justify-content:center;
+    width: 100%;
   }
   /* Large devices (laptops/desktops, 991px and up) */
   @media (min-width: 991px) {
@@ -226,5 +231,6 @@ const Social = styled.div`
   }
   @media (max-width: 575px) {
     margin-left:2rem;
+    align-self:center;
   }
 `;

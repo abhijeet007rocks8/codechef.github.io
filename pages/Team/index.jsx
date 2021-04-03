@@ -17,7 +17,7 @@ export default function Team(){
       <>
         <style>
          @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
-       </style>
+        </style>
       {/* <Navbar/> */}
   <Heading>OUR TEAM</Heading>
     <DisplayFlex>
@@ -53,6 +53,6 @@ export default function Team(){
        </DisplayFlex>
        <Footer/>
       </> 
-         )
+      )
 };
 // export default Team;

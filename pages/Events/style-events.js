@@ -45,7 +45,13 @@ export const Card=styled.span`
     overflow:hidden;
     border: 3px solid #102E46;
     margin:1rem;
-    @media (max-width:767px)
+    @media screen and (max-width:900px)
+    {
+      flex-direction: column;
+      margin:.5rem;
+      margin-bottom:.7rem;
+    }
+    @media screen and (max-width:767px)
     {
       flex-direction:column;
       margin:0rem;
@@ -64,7 +70,15 @@ export const Cardrev=styled.span`
     overflow:hidden;
     border: 3px solid #102E46;
     margin:1rem;
-    @media (max-width:767px)
+    
+    @media screen and (max-width:900px)
+    {
+      flex-direction: column-reverse;
+      margin:0rem;
+      margin-bottom:.7rem;
+    }
+
+    @media screen and (max-width:767px)
     {
       flex-direction: column-reverse;
       margin:0rem;
@@ -105,7 +119,7 @@ export const Title=styled.div`
     font-size:1.5rem;
     font-weight:bold;
     margin: 1rem;
-    @media (max-width: 576px) {
+    @media (max-width: 767px) {
       width:97%; 
       margin:0.5rem 0.3rem;
       font-size:1.3rem;

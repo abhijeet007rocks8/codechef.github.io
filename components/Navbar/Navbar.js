@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from "next/router";
 //import Logoimg from '../../public/imageasset/ccwhite.png'
-import {Nav,Logo,NavMenu,NavItem,BackImg,Back} from './nav-styles'
+import {GiHamburgerMenu} from 'react-icons/gi'
+import {Nav,Logo,NavMenu,NavItem,BackImg,Back,MobNav} from './nav-styles'
 
 const Navbar = () =>{
 
@@ -15,6 +16,11 @@ const Navbar = () =>{
     </BackImg>
     <Nav>
     <Logo src="/imageasset/ccwhite.png" />
+    
+    <MobNav>
+        <GiHamburgerMenu fill="#ffffff"/>
+    </MobNav>
+    
      <NavMenu>
        <NavItem><Link href="/">Home</Link></NavItem>
        <NavItem><Link href="/Events">Events</Link></NavItem>

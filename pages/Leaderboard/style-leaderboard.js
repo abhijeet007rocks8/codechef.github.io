@@ -80,8 +80,8 @@ export const Card=styled.span`
     //border: 3px solid #102E46;
     border-radius: 10px;
     background: #FFFFFF;
-    box-shadow:  15px 15px 30px #bababa,
-             -15px -15px 30px #ffffff;
+    box-shadow:  15px 15px 30px #bababa;
+             
 
     
 `;
@@ -104,7 +104,6 @@ export const Details=styled.div`
 
 export const HeaderStyled = styled.div`
     font-family:"Quicksand",sans-serif;
-    background:#4a74f5;
     flex-wrap:wrap;
     display: flex;
     margin:2% 5%;

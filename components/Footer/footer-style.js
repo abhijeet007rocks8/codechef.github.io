@@ -12,6 +12,9 @@ export const BackImg = styled.div`
     top:100;
     left:0;
     z-index:0;
+    @media (max-width: 767px){
+        display:none;
+    }
 `;
 
 export const Logo = styled.img`
