@@ -35,47 +35,47 @@ const Footer = () => (
         VIT BHOPAL CHAPTER
       </Title>
       <Social>
-      <a href="#" target="_blank">
+      <a href="https://medium.com/codechef-vit-bhopal" target="_blank">
         <Icon style={{margin:".5rem"}}>
           <SiMedium color="#000" />
         </Icon>
       </a>
-      <a href="#" target="_blank">
+      <a href="https://www.facebook.com/codechefvitbhopal/" target="_blank">
         <Icon style={{margin:".5rem"}}>
           <SiFacebook color="#3b5999" />
         </Icon>
       </a>
-      <a href="#" target="_blank">
+      <a href="https://twitter.com/codechefvitb" target="_blank">
         <Icon style={{margin:".5rem"}}>
           <SiTwitter color="#55acee" />
         </Icon>
       </a>
-      <a href="#" target="_blank">
+      <a href="https://www.instagram.com/codechefvitbhopal/" target="_blank">
         <Icon style={{margin:".5rem"}}>
           <SiInstagram color="#e1306c" />
         </Icon>
       </a>
-      <a href="#"target="_blank">
+      <a href="https://www.youtube.com/channel/UCnN2MXUF5ufqof-VSsXVn7Q"target="_blank">
         <Icon style={{margin:".5rem"}}>
           <SiYoutube color="#cd201f" />
         </Icon>
       </a>
-      <a href="#" target="_blank" >
+      <a href="https://github.com/codechefvitbhopal" target="_blank" >
         <Icon style={{margin:".5rem"}}>
           <SiGithub color="#333" />
         </Icon>
       </a>
-      <a href="#" target="_blank">
+      <a href="https://discord.gg/kSg6X4tFBx" target="_blank">
         <Icon style={{margin:".5rem"}}>
           <SiDiscord color="#7289da" />
         </Icon>
       </a>
-      <a href="#" target="_blank">
+      <a href="https://www.linkedin.com/company/codechefvitbhopal" target="_blank">
         <Icon style={{margin:".5rem"}}>
           <SiLinkedin color="#0077b5" />
         </Icon>
       </a>
-      <a href="#" target="_blank">
+      {/* <a href="#" target="_blank">
         <Icon style={{margin:".5rem"}}>
           <SiReddit color="#0077b5" />
         </Icon>
@@ -84,7 +84,7 @@ const Footer = () => (
         <Icon style={{margin:".5rem"}}>
           <SiCodechef color="#0077b5"/>
         </Icon>
-      </a>
+      </a> */}
       </Social>
       <Copyright>© Copyright 2021 | CodeChef VIT Bhopal | All Rights Reserved</Copyright>
     </Flex>    

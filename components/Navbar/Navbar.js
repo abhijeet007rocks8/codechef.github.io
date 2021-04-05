@@ -4,11 +4,12 @@ import { useRouter } from "next/router";
 //import Logoimg from '../../public/imageasset/ccwhite.png'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import {Nav,Logo,NavMenu,NavItem,BackImg,Back,MobNav} from './nav-styles'
+import { ImCross } from "react-icons/im";
 
 const Navbar = () =>{
 
   const router = useRouter();
-
+  const[show,setshow]=useState(false);
   return(
     <>
     <BackImg>
@@ -18,7 +19,8 @@ const Navbar = () =>{
     <Logo src="/imageasset/ccwhite.png" />
     
     <MobNav>
-        <GiHamburgerMenu fill="#ffffff"/>
+        {!show && <GiHamburgerMenu fill="#ffffff" fontSize="1.5rem" onClick={()=>setshow(true)}/>}
+        {show && <ImCross fill="#ffffff" fontSize="1.5rem" onClick={()=>setshow(false)}/>}
     </MobNav>
     
      <NavMenu>
