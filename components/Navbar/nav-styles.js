@@ -25,6 +25,9 @@ margin-right:15rem;
 @media screen and (max-width: 767px) {
 	display: none;
 }
+@media  screen and (max-width: 1024px) {
+    margin-right:8rem;
+}
 `;
 
 export const MobNav = styled.div`
@@ -66,6 +69,14 @@ export const Logo = styled.img`
      width:90px;
      margin-bottom:2px;
      margin-left:3rem;
+
+     @media  screen and (max-width: 768px) {
+        margin-left:2rem;
+    }
+
+    @media  screen and (max-width: 525px) {
+        margin-left:1rem;
+    }
 `;
 
 export const Back = styled.img`
@@ -77,4 +88,41 @@ export const BackImg = styled.div`
     top:0;
     left:0;
     z-index:-1;
+`;
+
+export const MenuWrapper = styled.div`
+position: fixed;
+top: 0;
+left: 0;
+z-index: 4;
+width: -webkit-fill-available;
+height: -webkit-fill-available;
+background: #0d6efd;
+display: flex;
+align-items: center;
+justify-content: center;
+opacity:0.95;
+
+@media  screen and (min-width: 768px) {
+ display:none;
+}
+`;
+
+export const MobNavmenu = styled.div`
+    text-align:center;
+`;
+
+export const MobNavItem = styled.div`
+  list-style: none;
+  align-text:center;
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  font-weight:500;
+
+  :hover{
+      font-size:1.7rem;
+      color:red;
+      font-weight:bolder;
+  }
 `;
