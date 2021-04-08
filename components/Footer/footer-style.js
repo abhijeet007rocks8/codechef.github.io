@@ -9,7 +9,6 @@ export const Back = styled.img`
 `;
 export const BackImg = styled.div`
     position:absolute;
-    top:100;
     left:0;
     z-index:0;
     @media (max-width: 767px){

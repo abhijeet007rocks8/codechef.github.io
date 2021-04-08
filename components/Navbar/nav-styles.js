@@ -33,7 +33,7 @@ margin-right:15rem;
 export const MobNav = styled.div`
     font-size: 2rem;
     margin-right: 2rem;
-
+    transition:1.0s;
 @media screen and (min-width: 767px) {
 	display: none;
 }    

@@ -136,7 +136,7 @@ const Flex = styled.div`
   z-index:1;
 
   @media screen and (min-width: 767px){
-    margin-top:10rem;
+    margin-top:8rem;
     margin-left:0rem;
 }
 `;
@@ -160,20 +160,31 @@ const Icon = styled.div`
     cursor: pointer;
     width: 60px;
     height: 60px;
-    font-size:1.7rem;
-
-     
+    animation: mymove 5s;  
   }
   @media (max-width: 991px) {
    font-size:1.3rem;
    width: 45px;
-  height: 45px;
+  height: 45px; 
+@keyframes mymove {
+  from{font-size:1.3rem}
+  to{font-size:1.7rem;}
+}
   }
   @media (max-width: 575px) {
     font-size:1.1rem;
     width: 40px;
     height: 40px;
+    
+@keyframes mymove {
+  from{font-size:1.1rem;}
+  to{font-size:1.5rem;}
+}
   }
+@keyframes mymove {
+    from{font-size:1.5rem}
+    to{font-size:1.7rem;}
+}
 }`;
 
 const Section = styled.section`
