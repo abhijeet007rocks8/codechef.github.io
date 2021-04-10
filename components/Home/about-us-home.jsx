@@ -1,10 +1,10 @@
 import React from 'react'
 import { FaChromecast } from 'react-icons/fa'
-import {Container,Card,Title,Para,Content,Image,About} from './styles'
+import {Container,ECard,Title,Para,Content,Image,About} from './styles'
 export default function AboutHome() {
     return (
         <Container>
-            <Card>
+            <ECard>
                 <About>
                     <Para>
                     <Title>About Us</Title>
@@ -29,7 +29,7 @@ export default function AboutHome() {
                 <Image>
                     <img src="/About-us.png" width="auto" height="100%"></img>
                 </Image>
-            </Card>
+            </ECard>
         </Container>
     )
 }
