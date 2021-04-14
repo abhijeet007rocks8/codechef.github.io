@@ -7,7 +7,7 @@ import Footer from '../../components/Footer/Footer';
 const Articles = () =>{
     let check=0;
     return(
-        <>
+        <div style={{zIndex:'1'}}>
         <Heading>ARTICLES</Heading>
         <DisplayFlex>   
             {articles['articles'].map((node) => (
@@ -47,7 +47,7 @@ const Articles = () =>{
         </DisplayFlex>
            {/* <footer/> */}
            <Footer/>    
-           </>
+           </div>
     );
 }
 

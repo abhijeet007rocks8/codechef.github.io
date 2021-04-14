@@ -156,35 +156,23 @@ const Icon = styled.div`
   border-radius: 50%;
   font-size: 1.5rem;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.03);
+  transition: width .35s ease-in-out;
+  transition: height .35s ease-in-out;
   &:hover {
     cursor: pointer;
     width: 60px;
-    height: 60px;
-    animation: mymove 5s;  
+    height: 60px; 
   }
   @media (max-width: 991px) {
    font-size:1.3rem;
    width: 45px;
   height: 45px; 
-@keyframes mymove {
-  from{font-size:1.3rem}
-  to{font-size:1.7rem;}
-}
   }
   @media (max-width: 575px) {
     font-size:1.1rem;
     width: 40px;
-    height: 40px;
-    
-@keyframes mymove {
-  from{font-size:1.1rem;}
-  to{font-size:1.5rem;}
-}
+    height: 40px; 
   }
-@keyframes mymove {
-    from{font-size:1.5rem}
-    to{font-size:1.7rem;}
-}
 }`;
 
 const Section = styled.section`

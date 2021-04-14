@@ -5,6 +5,7 @@ import Footer from '../components/Footer/Footer'
 import Header from '../components/Home/header';
 import Events from '../components/Home/events-home';
 import AboutHome from '../components/Home/about-us-home';
+import Upcoming from '../components/Home/upcoming-events';
 import styled from 'styled-components'
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
           <Header/>
           <AboutHome/>
           <Events/> 
+          <Upcoming/>
       </main>
       </div>
      <Footer/>

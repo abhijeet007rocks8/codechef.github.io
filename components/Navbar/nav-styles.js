@@ -82,6 +82,7 @@ export const Logo = styled.img`
 export const Back = styled.img`
     min-height:200px;
     width:100%;
+    z-index:0;
 `;
 export const BackImg = styled.div`
     position:absolute;
@@ -102,7 +103,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 opacity:0.95;
-
+transition: display .35s ease-in-out;
 @media  screen and (min-width: 768px) {
  display:none;
 }

@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
-import{Card,Button,About,Imag,TitleImg,DisplayFlex,Discription,ETitle,Details,LCard} from './styles';
+import{Card,Button,About,Imag,TitleImg,DisplayFlex,Discription,ETitle,Details,LCard,Desktop,Mobile} from './styles';
 import events from "../../data/events.json"
 import {FaAngleDoubleLeft,FaAngleDoubleRight} from 'react-icons/fa'
+import styled from 'styled-components'
 
 export default function events_home() {
     const [prev, setprev]=useState(1);
@@ -9,6 +10,7 @@ export default function events_home() {
     const [next, setnext]=useState(3);
     const [disableLeft,setdisableLeft]=useState(false);
     const [disableRight,setdisableRight]=useState(false);
+    const [counter,setcounter]=useState(1);
     const data = events['events'];
     
     const nextevent = () =>{
@@ -16,9 +18,13 @@ export default function events_home() {
         //  {prev==data.length?setprev(1):setprev(prev+1)}
         //  {next==data.length?setnext(1):setnext(next+1)}
         console.log(disableRight)
+        
+        if(counter<=data.length)
+        setcounter(counter+1)
+        
         if(prev<=1)
         setdisableLeft(false)
-
+        
         if(next==data.length){
             setdisableRight(true)
         }
@@ -35,6 +41,10 @@ export default function events_home() {
     const previous = () =>{
         //  {middle<=1?setmiddle(data.length):setmiddle(middle-1)}
         console.log(disableLeft)
+        
+        if(counter>1)
+        setcounter(counter-1)
+
         if(next==data.length)
         setdisableRight(false)
          if(prev<=1){
@@ -52,14 +62,14 @@ export default function events_home() {
 
     return (
 
-        <div style={{display:'flex', flexDirection:'column',alignItems:'center' ,justifyContent:'center',margin:'1rem 2rem',marginTop:'5rem',overflowX:'hidden'}}>
+        <EventHome style={{}}>
             <TitleImg>
             <img src="/events-heading.png" width="100%" height="auto"></img>
             </TitleImg>
             
             <DisplayFlex>
-                <Button onClick={previous} disabled={disableLeft}><FaAngleDoubleLeft fill="#000000"/></Button>
-                   {data.map((node)=><>{node.id == prev && (<LCard>
+                <Button onClick={previous} disabled={disableLeft}><FaAngleDoubleLeft /></Button>
+                <Desktop>{data.map((node)=><>{node.id == prev && (<LCard>
                         <Imag>
                            <img src={node.eventpic} width="100%" height="auto"  alt=""/>
                         </Imag>
@@ -103,10 +113,43 @@ export default function events_home() {
                             {node.description}
                         </Details>
                     </Discription>
-                    </LCard>}</>
+                    </LCard>}
+                    </>
                     )}
-                <Button onClick={nextevent} disabled={disableRight}><FaAngleDoubleRight fill="#000000"/></Button>
+                    </Desktop>
+
+                    <Mobile>
+                    {data.map((node)=>node.id == counter && <Card>
+                        <Imag>
+                           <img src={node.eventpic} width="100%" height="auto" alt=""/>
+                        </Imag>
+
+                    <Discription>
+                        <ETitle>
+                            {node.title}
+                        </ETitle>
+                        <Details>
+                            {node.description}
+                        </Details>
+                    </Discription>
+                    </Card>)}
+                    </Mobile>
+
+                {<Button onClick={nextevent} disabled={disableRight}><FaAngleDoubleRight /></Button>}
             </DisplayFlex>
-        </div>
+        </EventHome>
     )
 }
+
+const EventHome = styled.div`
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin:1rem 2rem;
+    margin-top:5rem;
+    overflow-x:hidden;
+    @media (max-width: 576px) {
+    margin:1rem -1rem;
+    }
+`;

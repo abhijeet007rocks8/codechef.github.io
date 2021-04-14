@@ -205,9 +205,13 @@ export const LCard=styled.div`
 export const Button = styled.button`
     border:transparent;
     background:transparent;
+    color:black;
     font-size:1.5rem;
+    transition: font-size .35s ease-in-out;
     :hover{
-        font-size:1.8rem;
+       font-size:1.8rem;
+        color: blue;
+        border:transparent;
     }
 `; 
 
@@ -216,6 +220,7 @@ export const Signup = styled.button`
     background:#4a74f5;
     border-radius:30px;
     color:white;
+    font-family:Roboto;
     margin:-4rem;
     padding:1rem;
     font-size:1.3rem;
@@ -233,16 +238,16 @@ export const Signup = styled.button`
     }
 
     @media screen and (max-width:565px){
-        margin:-1.5rem;
-        padding:0.5rem;
-        font-size:1rem;
+        margin:-1.3rem;
+        padding:0.2rem;
+        font-size:.8rem;
         :hover{
             font-size:1.2rem;
         }
     }
 `; 
 
-export const HeaderImg =styled.div`
+export const HeaderImg = styled.div`
     width:100%;
     padding:-1rem 3rem;
     max-height:700px;
@@ -250,4 +255,36 @@ export const HeaderImg =styled.div`
     flex-direction:column;
     justify-content:center;
     align-items:center;
+`;
+
+export const Header = styled.div`
+    margin-bottom:10rem;
+    @media screen and (max-width:565px){
+    margin-bottom:4rem;
+    }
+`;
+
+export const Desktop = styled.div`
+    display:flex;
+    justify-content:center;
+    @media screen and (max-width:767px){
+        display:none;
+    }
+`;
+
+export const Mobile = styled.div`
+    display:flex;
+    justify-content:center;
+    @media screen and (min-width:767px){
+        display:none;
+    }
+`;
+
+export const Heading=styled.div`
+    font-size:3rem; 
+    color:#102E46;
+    padding-bottom:2rem;
+    text-align:center;
+    font-weight:bold;
+    font-family:san-serif;
 `;
