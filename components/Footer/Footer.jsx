@@ -136,7 +136,7 @@ const Flex = styled.div`
   z-index:1;
 
   @media screen and (min-width: 767px){
-    margin-top:8rem;
+    margin-top:9rem;
     margin-left:0rem;
 }
 `;
