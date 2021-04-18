@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { useRouter } from "next/router";
 //import Logoimg from '../../public/imageasset/ccwhite.png'
 import {GiHamburgerMenu} from 'react-icons/gi'
-import {Nav,Logo,NavMenu,NavItem,BackImg,Back,MobNav,MenuWrapper,MobNavItem,MobNavmenu} from './nav-styles'
+import {Nav,Logo,NavMenu,NavItem,MobNav,MenuWrapper,MobNavItem,MobNavmenu} from './nav-styles'
 import { ImCross } from "react-icons/im";
 
 const Navbar = () =>{
@@ -12,9 +12,6 @@ const Navbar = () =>{
   const[show,setshow]=useState(false);
   return(
     <>
-    <BackImg>
-      <Back src="/imageasset/navbg.png"/>
-    </BackImg>
     <Nav>
     <Logo src="/imageasset/ccwhite.png" />
     

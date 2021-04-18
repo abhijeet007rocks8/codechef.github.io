@@ -12,6 +12,9 @@ export default function Home() {
   return (
     <>
     <div className={styles.container}>
+    <BackImg>
+      <Back src="/imageasset/navbg.png"/>
+    </BackImg>
       <Head>
         <title>Codechef-VIT Bhopal</title>
         <link rel="icon" href="/heading2.png" />
@@ -32,4 +35,15 @@ export default function Home() {
 
 const TitImg =styled.img`
    width:70%;
+`;
+const Back = styled.img`
+    min-height:200px;
+    width:100%;
+    z-index:0;
+`;
+const BackImg = styled.div`
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:-1;
 `;

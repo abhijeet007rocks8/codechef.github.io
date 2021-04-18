@@ -44,15 +44,20 @@ export const NavItem = styled.div`
     font-family:"-apple-system",sans-serif;
     font-size:1.5rem;
     width:fit-content;
-    margin:5%;
+    margin:4%;
+    padding:4px;
+    font-weight:bolder;
+
+
   :hover{
-     color:red;
-     font-weight:bolder;
+    background:white;
+    color:#0d6efd;
+    border-radius:15px;
     }
   
    &:active {
-      color: green;
-      font-weight:bold;
+      color: black;
+      font-weight:bolder;
   }
 
   @media screen and (max-width: 1024px){
@@ -79,17 +84,8 @@ export const Logo = styled.img`
     }
 `;
 
-export const Back = styled.img`
-    min-height:200px;
-    width:100%;
-    z-index:0;
-`;
-export const BackImg = styled.div`
-    position:absolute;
-    top:0;
-    left:0;
-    z-index:-1;
-`;
+
+
 
 export const MenuWrapper = styled.div`
 position: fixed;
@@ -122,8 +118,7 @@ export const MobNavItem = styled.div`
   font-weight:500;
 
   :hover{
-      font-size:1.7rem;
-      color:red;
-      font-weight:bolder;
+      background:white;
+      color:#0d6efd;
   }
 `;

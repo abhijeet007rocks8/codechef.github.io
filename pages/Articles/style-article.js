@@ -43,7 +43,6 @@ export const Card=styled.span`
     border-radius:1rem;
     align-items:center;
     overflow:hidden;
-    border: 3px solid #102E46;
     margin:1rem;
     @media (max-width:767px)
     {
@@ -62,7 +61,6 @@ export const Cardrev=styled.span`
     align-items:center;
     border-radius:1rem;
     overflow:hidden;
-    border: 3px solid #102E46;
     margin:1rem;
     @media (max-width:767px)
     {
@@ -75,8 +73,8 @@ export const Cardrev=styled.span`
 export const Heading=styled.div`
     font-size:3rem; 
     color:#102E46;
-    padding-bottom:2rem;
     text-align:center;
+    margin-top:4%;
     font-weight:bold;
     font-family:san-serif;
 `;
@@ -97,6 +95,9 @@ export const Details=styled.div`
 
 export const Img=styled.div` 
   margin:1rem;
+`;
+export const Image=styled.img` 
+  border-radius:15px;
 `;
 
 export const Title=styled.div`
@@ -123,7 +124,6 @@ export const Description=styled.div`
     border-radius: 10px;
     background: #FFFFFF;
     box-shadow:  15px 15px 30px #bababa;
-            // -15px -15px 30px #ffffff;
 
     @media (max-width: 767px) {
         width:95%;

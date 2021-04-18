@@ -216,16 +216,19 @@ export const Button = styled.button`
 `; 
 
 export const Signup = styled.button`
-    border:transparent;
-    background:#4a74f5;
-    border-radius:30px;
-    color:white;
-    font-family:Roboto;
-    margin:-4rem;
-    padding:1rem;
-    font-size:1.3rem;
+border: transparent;
+background: #4a74f5;
+border-radius: 65px;
+color: white;
+font-family: Roboto;
+margin: -6rem;
+padding: 1.2rem;
+font-size: 2.0rem;
+font-weight: bold;
     :hover{
-        font-size:1.5rem;
+        background: white;
+        border:6px solid #4a74f5;
+        color:#4a74f5;
     }
 
     @media screen and (max-width:800px){

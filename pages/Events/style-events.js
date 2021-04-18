@@ -43,7 +43,6 @@ export const Card=styled.span`
     border-radius:1rem;
     align-items:center;
     overflow:hidden;
-    border: 3px solid #102E46;
     margin:1rem;
     @media screen and (max-width:900px)
     {
@@ -68,7 +67,6 @@ export const Cardrev=styled.span`
     align-items:center;
     border-radius:1rem;
     overflow:hidden;
-    border: 3px solid #102E46;
     margin:1rem;
     
     @media screen and (max-width:900px)
@@ -89,7 +87,7 @@ export const Cardrev=styled.span`
 export const Heading=styled.div`
     font-size:3rem; 
     color:#102E46;
-    padding-bottom:2rem;
+    margin-top: 4%;
     text-align:center;
     font-weight:bold;
     font-family:san-serif;
@@ -112,6 +110,10 @@ export const Details=styled.div`
 export const Img=styled.div` 
   margin:1rem;
 `;
+export const Image=styled.img` 
+  border-radius:15px;
+`;
+
 
 export const Title=styled.div`
     font-family:"Quicksand",sans-serif;

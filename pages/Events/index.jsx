@@ -1,6 +1,6 @@
 import React from 'react'
 import events from "../../data/events.json"
-import {Event, Title ,Img, Cardrev, Heading ,Card, Description, Details, DisplayFlex} from "./style-events.js"
+import {Event, Title ,Img, Cardrev, Heading ,Image,Card, Description, Details, DisplayFlex} from "./style-events.js"
 import Footer from '../../components/Footer/Footer';
 
 function Events(){
@@ -14,7 +14,7 @@ function Events(){
             <Event>
             {++check%2!=0 && <Card>
                <Img>
-               <img src={node.eventpic} width="100%"></img>                 
+               <Image src={node.eventpic} width="100%"></Image>                 
                </Img>
                <Description>
                 <Title>
@@ -36,7 +36,7 @@ function Events(){
                 </Details>
               </Description>
               <Img>
-               <img src={node.eventpic} width="100%"></img>                 
+               <Image src={node.eventpic} width="100%"></Image>                 
                </Img>
             </Cardrev>}
 
