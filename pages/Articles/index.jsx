@@ -1,6 +1,6 @@
 import React from 'react'
 import articles from "../../data/articles.json"
-import {Event, Title ,Img, Cardrev, Heading ,Card, Description, Details, DisplayFlex} from "./style-article.js"
+import {Event, Title ,Img,Image,Cardrev, Heading ,Card, Description, Details, DisplayFlex} from "./style-article.js"
 
 import Footer from '../../components/Footer/Footer';
 
@@ -15,7 +15,7 @@ const Articles = () =>{
             <Event>
             {++check%2!=0 && <Card>
                <Img>
-               <img src={node.eventpic} width="100%"></img>                 
+               <Image src={node.eventpic} width="100%"></Image>                 
                </Img>
                <Description>
                 <Title>
@@ -37,7 +37,7 @@ const Articles = () =>{
                 </Details>
               </Description>
               <Img>
-               <img src={node.eventpic} width="100%"></img>                 
+               <Image src={node.eventpic} width="100%"></Image>                 
                </Img>
             </Cardrev>}
 
