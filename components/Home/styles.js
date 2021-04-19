@@ -8,7 +8,7 @@ export const Container = styled.div`
 
 export const Card=styled.div`
     display:flex;
-    width:95%;
+    width:100%;
     align-items:center;
     justify-content:space-between;
     justify-self:center;
