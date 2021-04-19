@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 //import {Header} from "./header"
 //import {footer} from "./footer"
-import Navbar from '../../components/Navbar/Navbar.js'
 import {RiTwitterLine} from "react-icons/ri";
 import {FaGithubAlt} from "react-icons/fa"
 import {AiOutlineLinkedin} from "react-icons/ai"

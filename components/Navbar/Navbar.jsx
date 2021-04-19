@@ -13,7 +13,7 @@ const Navbar = () =>{
   return(
     <>
     <Nav>
-    <Logo src="/imageasset/ccwhite.png" />
+    <Logo src="/imageasset/ccwhite2.png" />
     
     <MobNav>
         {!show && <GiHamburgerMenu fill="#ffffff" fontSize="1.5rem" onClick={()=>setshow(true)}/>}

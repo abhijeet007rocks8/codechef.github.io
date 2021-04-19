@@ -1,11 +1,5 @@
 import styled from "styled-components";
 
-export const screen={
-    xs: "576px",
-    sm:"768px",
-    md: "992px",
-    lg: "1199px",
-  };
 
 export const Container = styled.div`
   display:flex;
@@ -86,6 +80,7 @@ export const Social=styled.span`
 export const Heading=styled.div`
     font-size:3rem; 
     color:#102E46;
+    margin-top:1rem;
     padding-bottom:2rem;
     text-align:center;
     font-weight:bold;

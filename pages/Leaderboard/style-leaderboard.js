@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const Heading=styled.div`
     font-size:3rem; 
     color:#102E46;
+    margin-top:1rem;
     padding-bottom:2rem;
     text-align:center;
     font-weight:bold;
