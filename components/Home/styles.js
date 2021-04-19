@@ -228,10 +228,10 @@ font-weight: bold;
 transition: font-size .45s ease-in-out;
 transition: background .45s ease-in-out;
 transition: border .45s ease-in-out;
-// transition: color .45s ease-in-out;
+
     :hover{
         background: white;
-        border:4px solid #4a74f5;
+        border:6px solid #4a74f5;
         color:#4a74f5;
     }
 
