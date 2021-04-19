@@ -132,12 +132,16 @@ const Flex = styled.div`
   margin-top:2rem;
   margin-left: 0.2rem;
   flex-direction:column;
+  align-items:center;
+  justify-content:center;
   flex-wrap:wrap;
   z-index:1;
 
   @media screen and (min-width: 767px){
     margin-top:9rem;
-    margin-left:0rem;
+    margin-left:2rem;
+    align-items:unset;
+    justify-content:unset;
 }
 `;
 
@@ -229,7 +233,11 @@ const Social = styled.div`
    margin-left:2rem;
   }
   @media (max-width: 575px) {
-    margin-left:2rem;
+    margin:0.3rem 5rem;
+    align-self:center;
+  }
+  @media (max-width: 380px) {
+    margin:0.3rem 4rem;
     align-self:center;
   }
 `;

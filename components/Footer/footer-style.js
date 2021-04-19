@@ -25,4 +25,6 @@ export const Copyright =styled.p`
     display:flex;
     flex-wrap:wrap;
     color:white;
+    margin: 0.4rem 3rem;
+    text-align:center;
 `; 
