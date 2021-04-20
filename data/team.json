@@ -1,8 +1,8 @@
 {
     "teammember":[
         {
-            "name":"Name Here",
-            "title":"Title here",
+            "name":" V Surya Kumar ",
+            "title":"President",
             "profilepic":"https://i.pinimg.com/originals/bb/43/97/bb4397176c80ee5b1c933398a8ce1f8e.png",
             "description":"Description1",
             "social":{
@@ -12,8 +12,8 @@
             }
         },
         {
-           "name":"Name Here",
-            "title":"Title here",
+           "name":"Akshat Goyal",
+            "title":"Competitive Programming Lead",
             "profilepic":"https://th.bing.com/th/id/OIP.-NUAri5WsnouIYyNrAc9xQHaJ4?pid=ImgDet&rs=1",
             "description":"Description1",
             "social":{
@@ -23,8 +23,8 @@
             } 
         },
         {
-            "name":"Name Here",
-             "title":"Title here",
+            "name":"Pratul Maurya",
+             "title":"Outreach & Media Lead",
              "profilepic":"https://i.pinimg.com/originals/bb/43/97/bb4397176c80ee5b1c933398a8ce1f8e.png",
              "description":"Description1",
              "social":{
@@ -34,8 +34,8 @@
              } 
          },
          {
-            "name":"Name Here",
-             "title":"Title here",
+            "name":"Abhishek Patnigere",
+             "title":"Events Lead",
              "profilepic":"https://i.pinimg.com/originals/bb/43/97/bb4397176c80ee5b1c933398a8ce1f8e.png",
              "description":"Description1",
              "social":{
@@ -45,8 +45,8 @@
              } 
          },
          {
-            "name":"Name Here",
-             "title":"Title here",
+            "name":"Siddhant Singh",
+             "title":"Events & PR Manager",
              "profilepic":"https://i.pinimg.com/originals/bb/43/97/bb4397176c80ee5b1c933398a8ce1f8e.png",
              "description":"Description1",
              "social":{
@@ -56,8 +56,8 @@
              } 
          },
          {
-            "name":"Name Here",
-             "title":"Title here",
+            "name":"Chirag Sharma",
+             "title":"Events & PR Manager",
              "profilepic":"https://i.pinimg.com/originals/bb/43/97/bb4397176c80ee5b1c933398a8ce1f8e.png",
              "description":"Description1",
              "social":{
@@ -67,8 +67,107 @@
              } 
          },
          {
-            "name":"Name Here",
-             "title":"Title here",
+            "name":"Arpita Das",
+             "title":"Logistic & Outreach Manager",
+             "profilepic":"https://i.pinimg.com/originals/bb/43/97/bb4397176c80ee5b1c933398a8ce1f8e.png",
+             "description":"Description1",
+             "social":{
+                 "linkedin":"Link1",
+                 "github":"Link1",
+                 "twitter":"Link1"
+             } 
+         },
+         {
+            "name":"Aadira Ramakrishnan",
+             "title":"Logistic & Outreach Manager",
+             "profilepic":"https://i.pinimg.com/originals/bb/43/97/bb4397176c80ee5b1c933398a8ce1f8e.png",
+             "description":"Description1",
+             "social":{
+                 "linkedin":"Link1",
+                 "github":"Link1",
+                 "twitter":"Link1"
+             } 
+         },
+         {
+            "name":"Sumedha Poonia",
+             "title":"Content Writer",
+             "profilepic":"https://i.pinimg.com/originals/bb/43/97/bb4397176c80ee5b1c933398a8ce1f8e.png",
+             "description":"Description1",
+             "social":{
+                 "linkedin":"Link1",
+                 "github":"Link1",
+                 "twitter":"Link1"
+             } 
+         },
+         {
+            "name":"Laavart",
+             "title":"Graphic Designer",
+             "profilepic":"https://i.pinimg.com/originals/bb/43/97/bb4397176c80ee5b1c933398a8ce1f8e.png",
+             "description":"Description1",
+             "social":{
+                 "linkedin":"Link1",
+                 "github":"Link1",
+                 "twitter":"Link1"
+             } 
+         },
+         {
+            "name":"Abhay Singh Rana",
+             "title":"Graphic Designer",
+             "profilepic":"https://i.pinimg.com/originals/bb/43/97/bb4397176c80ee5b1c933398a8ce1f8e.png",
+             "description":"Description1",
+             "social":{
+                 "linkedin":"Link1",
+                 "github":"Link1",
+                 "twitter":"Link1"
+             } 
+         },
+         {
+            "name":"Shivam Paliya",
+             "title":"Technical Analyst",
+             "profilepic":"https://i.pinimg.com/originals/bb/43/97/bb4397176c80ee5b1c933398a8ce1f8e.png",
+             "description":"Description1",
+             "social":{
+                 "linkedin":"Link1",
+                 "github":"Link1",
+                 "twitter":"Link1"
+             } 
+         },
+         {
+            "name":"Arushi Jain",
+             "title":"Technical Analyst",
+             "profilepic":"https://i.pinimg.com/originals/bb/43/97/bb4397176c80ee5b1c933398a8ce1f8e.png",
+             "description":"Description1",
+             "social":{
+                 "linkedin":"Link1",
+                 "github":"Link1",
+                 "twitter":"Link1"
+             } 
+         },
+         {
+            "name":"Vaishnav Anil",
+             "title":"Editorialist",
+             "profilepic":"https://i.pinimg.com/originals/bb/43/97/bb4397176c80ee5b1c933398a8ce1f8e.png",
+             "description":"Description1",
+             "social":{
+                 "linkedin":"Link1",
+                 "github":"Link1",
+                 "twitter":"Link1"
+             } 
+         },
+         {
+            "name":"Vishesh",
+             "title":"Editorialist",
+             "profilepic":"https://i.pinimg.com/originals/bb/43/97/bb4397176c80ee5b1c933398a8ce1f8e.png",
+             "description":"Description1",
+             "social":{
+                 "linkedin":"Link1",
+                 "github":"Link1",
+                 "twitter":"Link1"
+             } 
+         },
+         {
+            "name":"Ankit Sagar",
+             "title":"Developer",
              "profilepic":"https://i.pinimg.com/originals/bb/43/97/bb4397176c80ee5b1c933398a8ce1f8e.png",
              "description":"Description1",
              "social":{
