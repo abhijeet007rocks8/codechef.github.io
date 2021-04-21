@@ -18,7 +18,7 @@ export const Card=styled.div`
     border-radius: 10px;
     background: #FFFFFF;
     box-shadow:  15px 15px 30px #bababa;
-    margin: 1rem 2rem;
+    margin: 1rem 3rem;
     
     @media screen and (max-width:1100px){
         margin:1rem 0rem;
@@ -113,7 +113,7 @@ export const DisplayFlex = styled.div`
 `;
 
 export const Imag =styled.div`
-  height:auto;
+  max-height:min-content;
   border-top-left-radius:10px;
   border-top-right-radius:10px;
   overflow:hidden;

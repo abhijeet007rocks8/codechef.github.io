@@ -76,9 +76,11 @@ const Card = styled.div`
 const UpcomingE =styled.div`
     margin-top:-3rem;
     top:0;
+    margin-left:1rem;
     left:90%;
     @media screen and (max-width:565px){
     display:none;
+    margin-left:0rem;
     }
 `;
 
@@ -94,7 +96,11 @@ const Event =styled.div`
 
 const Text = styled.div`
     margin: 0rem 2rem; 
+    margin-right:2rem;
     font-family:Segoe UI;
+    @media screen and (min-width: 1100px) {
+        margin-right:-2rem;
+        }
 `;
 
 const Time = styled.div`
@@ -171,14 +177,16 @@ const Social = styled.div`
 const Imag =styled.div`
   height:auto;
   width:100%;
-  border-top-left-radius:10px;
-  border-top-right-radius:0px;
-  border-bottom-left-radius:10px;
+  margin-left:1rem;
+//   border-top-left-radius:10px;
+//   border-top-right-radius:0px;
+//   border-bottom-left-radius:10px;
   overflow:hidden;
   @media (max-width: 575px) {
     width:100%;
     border-top-left-radius:10px;
     border-top-right-radius:10px;
     border-bottom-left-radius:0px;
+    margin-left:0rem;
   }
 `;

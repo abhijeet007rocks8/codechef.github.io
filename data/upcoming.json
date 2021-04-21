@@ -1,9 +1,9 @@
 {
     "upcoming":[
         {
-            "title":"Event Name",
+            "title":"CodeInvicta",
             "timing":"12:00 AM - 01:00 PM, 28th Nov 2020 Monday",
-            "poster":"https://th.bing.com/th/id/OIP.RtUnf6yTQ2cbqdcW6DMmjAHaKH?pid=ImgDet&rs=1",
+            "poster":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Events/i05_LeadersLeague.png",
             "description":"Description1 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
             "social":{
                 "linkedin":"Link1",
