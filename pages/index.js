@@ -17,7 +17,7 @@ export default function Home() {
     </BackImg>
       <Head>
         <title>Codechef-VIT Bhopal</title>
-        <link rel="icon" href="/heading2.png" />
+        <link rel="icon" href="/imageasset/ccwhite.png" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       

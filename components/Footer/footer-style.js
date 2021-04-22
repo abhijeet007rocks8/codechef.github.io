@@ -25,4 +25,9 @@ export const Copyright =styled.p`
     display:flex;
     flex-wrap:wrap;
     color:white;
+    text-align:left;
+    margin: 0.4rem 3rem;
+    @media (max-width: 767px){
+    text-align:center;
+    }
 `; 

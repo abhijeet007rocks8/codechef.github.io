@@ -1,9 +1,9 @@
 {
     "teammember":[
         {
-            "name":"Name Here",
-            "title":"Title here",
-            "profilepic":"https://i.pinimg.com/originals/bb/43/97/bb4397176c80ee5b1c933398a8ce1f8e.png",
+            "name":" V Surya Kumar ",
+            "title":"President",
+            "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/SuryaKumarV.jpg",
             "description":"Description1",
             "social":{
                 "linkedin":"Link1",
@@ -12,9 +12,9 @@
             }
         },
         {
-           "name":"Name Here",
-            "title":"Title here",
-            "profilepic":"https://th.bing.com/th/id/OIP.-NUAri5WsnouIYyNrAc9xQHaJ4?pid=ImgDet&rs=1",
+           "name":"Akshat Goyal",
+            "title":"Competitive Programming Lead",
+            "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/AkshatGoyal.jpeg",
             "description":"Description1",
             "social":{
                 "linkedin":"Link1",
@@ -23,9 +23,9 @@
             } 
         },
         {
-            "name":"Name Here",
-             "title":"Title here",
-             "profilepic":"https://i.pinimg.com/originals/bb/43/97/bb4397176c80ee5b1c933398a8ce1f8e.png",
+            "name":"Pratul Maurya",
+             "title":"Outreach & Media Lead",
+             "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/PratulMaurya.jpg",
              "description":"Description1",
              "social":{
                  "linkedin":"Link1",
@@ -34,9 +34,9 @@
              } 
          },
          {
-            "name":"Name Here",
-             "title":"Title here",
-             "profilepic":"https://i.pinimg.com/originals/bb/43/97/bb4397176c80ee5b1c933398a8ce1f8e.png",
+            "name":"Abhishek Patnigere",
+             "title":"Events Lead",
+             "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/AbhishekPatnigere.jpg",
              "description":"Description1",
              "social":{
                  "linkedin":"Link1",
@@ -45,9 +45,9 @@
              } 
          },
          {
-            "name":"Name Here",
-             "title":"Title here",
-             "profilepic":"https://i.pinimg.com/originals/bb/43/97/bb4397176c80ee5b1c933398a8ce1f8e.png",
+            "name":"Siddhant Singh",
+             "title":"Events & PR Manager",
+             "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/SiddhantSingh.jpg",
              "description":"Description1",
              "social":{
                  "linkedin":"Link1",
@@ -56,9 +56,9 @@
              } 
          },
          {
-            "name":"Name Here",
-             "title":"Title here",
-             "profilepic":"https://i.pinimg.com/originals/bb/43/97/bb4397176c80ee5b1c933398a8ce1f8e.png",
+            "name":"Chirag Sharma",
+             "title":"Events & PR Manager",
+             "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/ChiragSharma.jpg",
              "description":"Description1",
              "social":{
                  "linkedin":"Link1",
@@ -67,9 +67,119 @@
              } 
          },
          {
-            "name":"Name Here",
-             "title":"Title here",
-             "profilepic":"https://i.pinimg.com/originals/bb/43/97/bb4397176c80ee5b1c933398a8ce1f8e.png",
+            "name":"Arpita Das",
+             "title":"Logistic & Outreach Manager",
+             "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/ArpitaDas.jpeg",
+             "description":"Description1",
+             "social":{
+                 "linkedin":"Link1",
+                 "github":"Link1",
+                 "twitter":"Link1"
+             } 
+         },
+         {
+            "name":"Aadira Ramakrishnan",
+             "title":"Logistic & Outreach Manager",
+             "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/AadiraAnil.jpeg",
+             "description":"Description1",
+             "social":{
+                 "linkedin":"Link1",
+                 "github":"Link1",
+                 "twitter":"Link1"
+             } 
+         },
+         {
+            "name":"Sumedha Poonia",
+             "title":"Content Writer",
+             "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/SumedhaPoonia.jpg",
+             "description":"Description1",
+             "social":{
+                 "linkedin":"Link1",
+                 "github":"Link1",
+                 "twitter":"Link1"
+             } 
+         },
+         {
+            "name":"Laavart",
+             "title":"Graphic Designer",
+             "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/Laavart.jpg",
+             "description":"Description1",
+             "social":{
+                 "linkedin":"Link1",
+                 "github":"Link1",
+                 "twitter":"Link1"
+             } 
+         },
+         {
+            "name":"Abhay Singh Rana",
+             "title":"Graphic Designer",
+             "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/AbhaySinghRana.jpg",
+             "description":"Description1",
+             "social":{
+                 "linkedin":"Link1",
+                 "github":"Link1",
+                 "twitter":"Link1"
+             } 
+         },
+         {
+            "name":"Shivam Paliya",
+             "title":"Technical Analyst",
+             "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/ShivamPaliya.jpg",
+             "description":"Description1",
+             "social":{
+                 "linkedin":"Link1",
+                 "github":"Link1",
+                 "twitter":"Link1"
+             } 
+         },
+         {
+            "name":"Arushi Jain",
+             "title":"Technical Analyst",
+             "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/ArushiJain.jpg",
+             "description":"Description1",
+             "social":{
+                 "linkedin":"Link1",
+                 "github":"Link1",
+                 "twitter":"Link1"
+             } 
+         },
+         {
+            "name":"Vaishnav Anil",
+             "title":"Editorialist",
+             "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/VaishnavAnil.jpg",
+             "description":"Description1",
+             "social":{
+                 "linkedin":"Link1",
+                 "github":"Link1",
+                 "twitter":"Link1"
+             } 
+         },
+         {
+            "name":"Vishesh",
+             "title":"Editorialist",
+             "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/VisheshTripathi.png",
+             "description":"Description1",
+             "social":{
+                 "linkedin":"Link1",
+                 "github":"Link1",
+                 "twitter":"Link1"
+             } 
+         },
+         {
+            "name":"Ankit Sagar",
+             "title":"Developer",
+             "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/AnkitSagar.jpg",
+             "description":"Description1",
+             "social":{
+                 "linkedin":"Link1",
+                 "github":"Link1",
+                 "twitter":"Link1"
+             } 
+         },
+         {
+            "name":"Nikhil",
+             "title":"Developer",
+             "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/Nikhil.jpg",
              "description":"Description1",
              "social":{
                  "linkedin":"Link1",

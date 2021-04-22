@@ -47,7 +47,10 @@ export const NavItem = styled.div`
     margin:4%;
     padding:4px;
     font-weight:bolder;
-
+    transition:background 0.45s ease-in-out;
+    // transition:color 0.45s ease-in-out;
+    // transition:border 0.45s ease-in-out;
+    
 
   :hover{
     background:white;
@@ -71,12 +74,13 @@ export const NavItem = styled.div`
 `;
 
 export const Logo = styled.img`
-     width:90px;
+     width:180px;
      margin-bottom:2px;
      margin-left:3rem;
 
      @media  screen and (max-width: 768px) {
         margin-left:2rem;
+        width:150px;
     }
 
     @media  screen and (max-width: 525px) {

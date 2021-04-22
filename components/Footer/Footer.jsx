@@ -75,19 +75,12 @@ const Footer = () => (
           <SiLinkedin color="#0077b5" />
         </Icon>
       </a>
-      {/* <a href="#" target="_blank">
-        <Icon style={{margin:".5rem"}}>
-          <SiReddit color="#0077b5" />
-        </Icon>
-      </a>
-      <a href="#" target="_blank">
-        <Icon style={{margin:".5rem"}}>
-          <SiCodechef color="#0077b5"/>
-        </Icon>
-      </a> */}
       </Social>
       <Copyright>© Copyright 2021 | CodeChef VIT Bhopal | All Rights Reserved</Copyright>
-    </Flex>    
+    </Flex>
+    <Image>
+        <img src="/chefgrad.png" alt="" width="auto" height="280px"></img>
+    </Image>
     </Container>
   </>
 );
@@ -109,41 +102,23 @@ const Title = styled.div`
   }
 `;
 
-const MobileTitle = styled.div`
-  display: none;
-  @media (max-width: 991px){
-    display: block;
-    font-weight: bolder;
-    text-align: center;
-    font-size: 15px;
-    padding-bottom: 1.5rem;
-  }
-  @media (max-width: 575px) {
-    display: block;
-    font-size: 10px;
-    font-weight: bolder;
-    text-align: center;
-    padding-bottom: 1.5rem;
-  }
-`;
 
 const Flex = styled.div`
   display: flex;
   margin-top:2rem;
   margin-left: 0.2rem;
   flex-direction:column;
+  align-items:center;
+  justify-content:center;
   flex-wrap:wrap;
   z-index:1;
 
   @media screen and (min-width: 767px){
     margin-top:9rem;
-    margin-left:0rem;
+    margin-left:2rem;
+    align-items:unset;
+    justify-content:unset;
 }
-`;
-
-const GithubATag = styled.a`
-  text-decoration: none;
-  color: #0099ff;
 `;
 
 const Icon = styled.div`
@@ -175,22 +150,11 @@ const Icon = styled.div`
   }
 }`;
 
-const Section = styled.section`
-  padding: 5rem 0rem;
-  
-`;
 
-// const commonTheme = {
-//     screen: {
-//       xs: "575px",
-//       sm: "767px",
-//       md: "991px",
-//       lg: "1199px",
-//     },
-//   };
 const Container = styled.div`
   display:flex;
   align-items:center;
+  justify-content:space-between;
   width:100%;
   margin: 0px auto;
   margin-top:1.5rem;
@@ -229,7 +193,18 @@ const Social = styled.div`
    margin-left:2rem;
   }
   @media (max-width: 575px) {
-    margin-left:2rem;
+    margin:0.3rem 5rem;
     align-self:center;
   }
+  @media (max-width: 380px) {
+    margin:0.3rem 4rem;
+    align-self:center;
+  }
+`;
+
+const Image = styled.div`
+z-index:1;
+  @media (max-width: 768px) {
+     display:none;
+   }
 `;

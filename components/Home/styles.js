@@ -8,7 +8,7 @@ export const Container = styled.div`
 
 export const Card=styled.div`
     display:flex;
-    width:95%;
+    width:100%;
     align-items:center;
     justify-content:space-between;
     justify-self:center;
@@ -18,7 +18,7 @@ export const Card=styled.div`
     border-radius: 10px;
     background: #FFFFFF;
     box-shadow:  15px 15px 30px #bababa;
-    margin: 1rem 2rem;
+    margin: 1rem 3rem;
     
     @media screen and (max-width:1100px){
         margin:1rem 0rem;
@@ -113,7 +113,7 @@ export const DisplayFlex = styled.div`
 `;
 
 export const Imag =styled.div`
-  height:auto;
+  max-height:min-content;
   border-top-left-radius:10px;
   border-top-right-radius:10px;
   overflow:hidden;
@@ -225,6 +225,10 @@ margin: -6rem;
 padding: 1.2rem;
 font-size: 2.0rem;
 font-weight: bold;
+transition: font-size .45s ease-in-out;
+transition: background .45s ease-in-out;
+transition: border .45s ease-in-out;
+
     :hover{
         background: white;
         border:6px solid #4a74f5;
