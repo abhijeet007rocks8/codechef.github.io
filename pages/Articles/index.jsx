@@ -68,14 +68,12 @@ const DisplayFlex = styled.div`
     align-self:center;
     overflow-x: hidden;
     flex-direction:column;
-    @media (max-width: 1024px){
-        
+    @media (max-width: 1024px){  
     }
-    @media (max-width: 768px) {
-        
+    @media (max-width: 768px) {    
     }
     @media (max-width: 576px) {
-      margin:.5rem;
+      margin:.5rem;ev
     }
 `;
 

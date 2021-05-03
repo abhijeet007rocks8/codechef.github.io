@@ -27,7 +27,7 @@ export default function AboutHome() {
                 </About>
 
                 <Image>
-                    <img src="/About-us.png" width="auto" height="100%"></img>
+                    <img src="/imageasset/About-us.png" width="auto" height="100%"></img>
                 </Image>
             </ECard>
         </Container>

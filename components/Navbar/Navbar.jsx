@@ -24,7 +24,7 @@ const Navbar = () =>{
        <NavItem><Link href="/">Home</Link></NavItem>
        <NavItem><Link href="/Events">Events</Link></NavItem>
        <NavItem><Link href="/Articles">Articles</Link></NavItem>
-       <NavItem><Link href="/team">Team</Link></NavItem>
+       <NavItem><Link href="/Team">Team</Link></NavItem>
        <NavItem><Link href="/Leaderboard">LeaderBoard</Link></NavItem>
      </NavMenu>
      </Nav>

@@ -64,7 +64,7 @@ export default function events_home() {
 
         <EventHome style={{}}>
             <TitleImg>
-            <img src="/events-heading.png" width="100%" height="auto"></img>
+            <img src="/imageasset/events-heading.png" width="100%" height="auto"></img>
             </TitleImg>
             
             <DisplayFlex>

@@ -79,7 +79,7 @@ const Footer = () => (
       <Copyright>© Copyright 2021 | CodeChef VIT Bhopal | All Rights Reserved</Copyright>
     </Flex>
     <Image>
-        <img src="/chefgrad.png" alt="" width="auto" height="280px"></img>
+        <img src="/imageasset/chefgrad.png" alt="" width="auto" height="280px"></img>
     </Image>
     </Container>
   </>

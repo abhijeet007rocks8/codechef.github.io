@@ -28,7 +28,7 @@ export default function Upcoming() {
                 </Text>
                 <Social>
                     <UpcomingE>
-                        <img src="/ue.png" width="200px" height="200px" alt=""></img>
+                        <img src="/imageasset/ue.png" width="200px" height="200px" alt=""></img>
                     </UpcomingE>
                    <a href={node.social.linkedin} target="_blank">
                         <Icon style={{margin:".5rem"}}>

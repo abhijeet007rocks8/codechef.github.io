@@ -1,7 +1,5 @@
-import { FaBars } from 'react-icons/fa';
-import { NavLink as Link } from 'react-router-dom';
+
 import styled from 'styled-components';
-import Image from "next/image";
 
 export const Nav = styled.div`
 position: sticky;
