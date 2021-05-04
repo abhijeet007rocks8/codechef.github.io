@@ -21,9 +21,9 @@ export default function Leaderboard (){
           {node.ranking.map((subnode)=>(
              <Card>
              <Details>
-                <Name>Name {subnode.name}</Name>
-                <Job>Score {subnode.score}</Job>
-                <Job>Position{subnode.position}</Job>
+                <Name>Name: {subnode.name}</Name>
+                <Job>Score: {subnode.score}</Job>
+                <Job>Position: {subnode.position}</Job>
              </Details>
           </Card> 
      ))}

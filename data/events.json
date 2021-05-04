@@ -4,31 +4,31 @@
             "id":"1",
             "title":"Codeyessey",
             "eventpic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Events/i04_Codeyessey.png",
-            "description":"Description4 Generating random paragraphs can be an excellent way for writers to get their creative flow going at thebeginning of the day."
+            "description":"The major highlights of the event were listening to Mr Tangri’s journey from a competitive programmer to a successful entrepreneur, the mantras that he followed to achieve that and the question-hour session wherein he answered students’ queries directly."
         },
         {
             "id":"2",
             "title":"Code For Fun",
             "eventpic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Events/i02_CodeForFun.png",
-            "description":"Description2 Generating random paragraphs can be an excellent way for writers to get their creative flow going at thebeginning of the day. "
+            "description":"A daily series of Instagram stories, titled Code For Fun was started, where a question related to programming was asked the first day and the answer to the same was provided the next day. Code For Fun was of objective type, instead of subjective, so that people could test the accuracy of their knowledge on a particular topic/concept and not stand confused. "
         },
         {
             "id":"3",
             "title":"Resource Buffer",
             "eventpic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Events/i01_ResourceBuffer.png",
-            "description":"Description1 Generating random paragraphs can be an excellent way for writers to get their creative flow going at thebeginning of the day. "
+            "description":"The four-week series wherein a new topic was introduced and its resources shared on github was the highlight, as this didn’t just familiarise students with coding concepts but also with the basic workings of github. "
         },
         {
             "id":"4",
             "title":"Leaders League",
             "eventpic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Events/i05_LeadersLeague.png",
-            "description":"Description5 Generating random paragraphs can be an excellent way for writers to get their creative flow going at thebeginning of the day."
+            "description":"The 20-question challenging quiz and the fierce competition witnessed in it, along with the mock interview with the industry experts was the major highlight of this event."
         },
         {
             "id":"5",
             "title":"Code Invicta",
             "eventpic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Events/i03_CodeInvicta.png",
-            "description":"Description3 Generating random paragraphs can be an excellent way for writers to get their creative flow going at thebeginning of the day."
+            "description":"The coming together of all the 4 campuses in a first of its kind event created quite a buzz among the students, and so did the sessions with the industry expert, and YouTube sensation Amam Dhattarwal. This event was aimed at introducing competitive programming among the beginners and creating a conducive environment for the same by exposing students to the fierce competition in the aforesaid."
         }
     ]
 }
