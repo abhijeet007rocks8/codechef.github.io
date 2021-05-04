@@ -11,7 +11,7 @@ import '../../styles/Home.module.css'
 import Footer from '../../components/Footer/Footer';
 
 
-export default function Team(){
+const Team=()=>{
     
    return (
       <>
@@ -55,8 +55,6 @@ export default function Team(){
       </> 
       )
 };
-
-
 
   const DisplayFlex = styled.div`
     padding:.2rem;
@@ -223,3 +221,5 @@ font-size:15px;}
         }
     }
 `;
+
+export default Team;

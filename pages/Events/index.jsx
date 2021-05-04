@@ -51,8 +51,6 @@ function Events(){
     );
 }
 
-export default Events;
-
 
 const Container = styled.div`
   display:block;
@@ -203,3 +201,5 @@ const DisplayFlex = styled.div`
       width:100%; 
   }   
 `;
+
+export default Events;

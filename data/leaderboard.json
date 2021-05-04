@@ -1,82 +1,102 @@
 {
     "events":[
         {
-            "eventname":"Event1",
+            "eventname":"Codeyessey",
             "ranking":[
                 {
-                    "position":"1st",
-                    "name":"1st Position name e1",
-                    "score":"99"
+                    "position":"1st Place ",
+                    "name":"Harsh Agarwal",
+                    "score":"username: harsh3125"
                 },
                 {
-                    "position":"2nd",
-                    "name":"2nd Position name e1",
-                    "score":"98"
+                    "position":"2nd Place ",
+                    "name":"Anuj Gupta",
+                    "score":"username: anujj_guptaa"
                 },
                 {
-                    "position":"3rd",
-                    "name":"3rd Position name e1",
-                    "score":"97"
+                    "position":"3rd Place",
+                    "name":"Shashwat Arora",
+                    "score":"username: sashwat224"
+                },
+                {
+                    "position":"4th Place",
+                    "name":"Alok Khansali",
+                    "score":"username: thecodealpha26"
+                },
+                {
+                    "position":"5th Place",
+                    "name":"Ilma Siddhiqui",
+                    "score":"username: ilma123"
                 }
             ]
         },
         {
-            "eventname":"Event2",
+            "eventname":"Resource Buffer",
             "ranking":[
                 {
-                    "position":"1st",
-                    "name":"1st Position name e2",
-                    "score":"99"
+                    "position":"1st Place",
+                    "name":"Alok Khansali",
+                    "score":"Score: 70/70"
                 },
                 {
-                    "position":"2nd",
-                    "name":"2nd Position name e2",
-                    "score":"98"
+                    "position":"2nd Place",
+                    "name":"Sakalya Mitra",
+                    "score":"Score: 70/70"
                 },
                 {
-                    "position":"3rd",
-                    "name":"3rd Position name e2",
-                    "score":"97"
+                    "position":"3rd Place",
+                    "name":"Deepak Maurya",
+                    "score":"Score: 60/70"
                 }
             ]
         },
         {
-            "eventname":"Event3",
+            "eventname":"Leader's League",
             "ranking":[
                 {
-                    "position":"1st",
-                    "name":"1st Position name e3",
-                    "score":"99"
+                    "position":"1st Place",
+                    "name":"Manav Dharmesh Shah",
+                    "score":"Score: 90"
                 },
                 {
-                    "position":"2nd",
-                    "name":"2nd Position name e3",
-                    "score":"98"
+                    "position":"2nd Place",
+                    "name":"Meeraj Mahendra Gawde",
+                    "score":"Score: 90"
                 },
                 {
-                    "position":"3rd",
-                    "name":"3rd Position name e3",
-                    "score":"97"
+                    "position":"3rd Place",
+                    "name":"Ketki Patil",
+                    "score":"Score: 85"
                 }
             ]
         },
         {
-            "eventname":"Event4",
+            "eventname":"Code Invicta",
             "ranking":[
                 {
-                    "position":"1st",
-                    "name":"1st Position name e4",
-                    "score":"99"
+                    "position":"1st in VIT-Bhopal",
+                    "name":"Aditya Kumar",
+                    "score":"username: Gomzee18"
                 },
                 {
-                    "position":"2nd",
-                    "name":"2nd Position name e4",
-                    "score":"98"
+                    "position":"2nd in VIT-Bhopal",
+                    "name":"Arindam Ghosal",
+                    "score":"username: Arindam027g"
                 },
                 {
-                    "position":"3rd",
-                    "name":"3rd Position name e4",
-                    "score":"97"
+                    "position":"3rd in VIT-Bhopal",
+                    "name":"Dikshansh Kumar Lodhi",
+                    "score":"username: Deekay1712"
+                },
+                {
+                    "position":"4th in VIT-Bhopal",
+                    "name":"Nikit",
+                    "score":"username: Sudo_nick"
+                },
+                {
+                    "position":"5th in VIT-Bhopal",
+                    "name":"Gagan Bankey",
+                    "score":"username: Gagan2001"
                 }
             ]
         }

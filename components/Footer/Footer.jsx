@@ -76,7 +76,6 @@ const Footer = () => (
   </>
 );
 
-export default Footer;
 
 const Title = styled.div`
   font-size: 1.7rem;
@@ -231,3 +230,5 @@ const Copyright =styled.p`
     text-align:center;
     }
 `; 
+
+export default Footer;

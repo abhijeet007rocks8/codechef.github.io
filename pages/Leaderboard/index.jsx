@@ -6,7 +6,7 @@ import Footer from '../../components/Footer/Footer'
 import leaderboard from '../../data/leaderboard.json';
 
 
-export default function Leaderboard (){
+function Leaderboard (){
    //leaderboard['events'].reverse()
    const [expanded, setExpanded] = useState(true);
       return(
@@ -22,9 +22,9 @@ export default function Leaderboard (){
           {node.ranking.map((subnode)=>(
              <Card>
              <Details>
-                <Name>Name {subnode.name}</Name>
-                <Job>Score {subnode.score}</Job>
-                <Job>Position{subnode.position}</Job>
+                <Position>{subnode.position}</Position>
+                <Name> {subnode.name}</Name>
+                <Score> {subnode.score}</Score>
              </Details>
           </Card> 
      ))}
@@ -47,42 +47,6 @@ export default function Leaderboard (){
     text-align:center;
     font-weight:bold;
     font-family:san-serif;
-`;
-
-  const Heading1=styled.h6`
-font-size: 1.7rem;
-font-weight: bold;
-align-items:left;
-`;
-
-  const DisplayFlex = styled.div`
-    padding:.2rem;
-    display: flex;
-    margin:rem;
-    width:-webkit-fill-available;
-    align-items:center;
-    justify-content:center;
-    justify-self:center;
-    align-self:center;
-    overflow-x: hidden;
-    flex-direction:column;
-    @media (max-width: 1024px){
-        
-    }
-    @media (max-width: 768px) {
-        
-    }
-    @media (max-width: 576px) {
-      margin:.5rem;
-    }
-`;
-
-  const Container = styled.div`
-  display:flex;
-  width:100%;
-  justify-self:center;
-  align-items:center;
-  justify-content:center;
 `;
 
   const DisplayGrid = styled.div`
@@ -158,21 +122,34 @@ align-items:left;
   font-weight: bold;
 `;
 
-  const Name=styled.p`
+const Name=styled.p`
 font-weight:bold;
 color: #102E46;
-margin-block-start: 1em;
+margin-block-start: 0.3em;
+margin-block-end: 0em;
+font-size:18px;
+@media (max-width: 576px){
+font-size:15px;}
+`;
+
+const Position=styled.p`
+font-weight:bold;
+color: #102E46;
+margin-block-start: 0.5em;
 margin-block-end: 0em;
 font-size:20px;
 @media (max-width: 576px){
 font-size:17px;}
 `;
 
-  const Job=styled.p`
+const Score=styled.p`
+margin:0.3rem 0rem;
 margin-block-start: 0em;
 margin-block-end: 0em;
 color: #102E46;
-font-size:15px;
+font-size:16px;
 @media (max-width: 576px){
-font-size:15px;}
+font-size:16px;}
 `;
+
+export default Leaderboard;

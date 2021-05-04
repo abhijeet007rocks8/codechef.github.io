@@ -45,10 +45,7 @@ const Navbar = () =>{
 
 };
 
-export default Navbar;
-
-
- const Nav = styled.div`
+const Nav = styled.div`
 position: sticky;
 display: flex;
 background:#4a74f5;
@@ -171,3 +168,6 @@ transition: display .35s ease-in-out;
       color:#0d6efd;
   }
 `;
+
+
+export default Navbar;

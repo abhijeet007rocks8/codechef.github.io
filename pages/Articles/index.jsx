@@ -50,8 +50,6 @@ const Articles = () =>{
     );
 }
 
-export default Articles;
-
 const Container = styled.div`
   display:block;
   justify-content:center;
@@ -184,3 +182,5 @@ const Event=styled.div`
       width:100%; 
   }   
 `;
+
+export default Articles;
