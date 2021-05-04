@@ -12,7 +12,6 @@ import {
   SiCodechef
 } from "react-icons/si";
 import styled from "styled-components";
-import {Back,BackImg,Logo,Copyright} from './footer-style';
 
 const Footer = () => (
   <>
@@ -21,14 +20,6 @@ const Footer = () => (
       <Back src="/imageasset/footer.png"/>
     </BackImg>
     <Container>
-         {/* <MobileTitle>
-        Made with ❤️ by DSC Web Team | Contribute to our  
-      Coders Assemble
-      <GithubATag href="">
-        {" "}
-        Github
-      </GithubATag>
-    </MobileTitle> */}
     <Flex>
     <Logo src="/imageasset/ccwhite2.png"/>
       <Title>
@@ -208,3 +199,35 @@ z-index:1;
      display:none;
    }
 `;
+
+const Back = styled.img`
+    height:400px;
+    width:100%;
+    @media (max-width: 765px) {
+        height:500px;
+  }
+`;
+const BackImg = styled.div`
+    position:absolute;
+    left:0;
+    z-index:0;
+    @media (max-width: 767px){
+        display:none;
+    }
+`;
+
+const Logo = styled.img`
+     width:150px;
+     margin-bottom:2px;
+`;
+
+const Copyright =styled.p`
+    display:flex;
+    flex-wrap:wrap;
+    color:white;
+    text-align:left;
+    margin: 0.4rem 3rem;
+    @media (max-width: 767px){
+    text-align:center;
+    }
+`; 
