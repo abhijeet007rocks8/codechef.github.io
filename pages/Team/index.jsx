@@ -183,10 +183,11 @@ font-size:15px;}
 `;
 
   const DescriptionContent=styled.p`
-    font-size:1.25rem;
-    margin-top:0.15rem;
+    font-size:1.2rem;
     display:flex;
     justify-content:center;
+    margin: 0.2rem 0.6rem;
+    text-align:center;
 `;
 
 
@@ -203,6 +204,7 @@ font-size:15px;}
     font-weight:bold;
     display:flex;
     flex-direction: column;
+    align-items:center;
     justify-content:center;
     backdrop-filter:blur(3px);
     opacity:0;

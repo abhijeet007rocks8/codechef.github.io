@@ -1,7 +1,4 @@
 module.exports = {
-  images: {
-    domains: ['https://github.com/abhijeet007rocks8/codechef.github.io/tree/master/public/imageasset'],
-  },
     exportPathMap: function () {
       return {
         "/": { page: "/" },
