@@ -2,15 +2,15 @@
     "events":[
         {
             "id":"1",
-            "title":"Codeyessey",
-            "eventpic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Events/i04_Codeyessey.png",
-            "description":"The major highlights of the event were listening to Mr Tangri’s journey from a competitive programmer to a successful entrepreneur, the mantras that he followed to achieve that and the question-hour session wherein he answered students’ queries directly."
+            "title":"Code Invicta",
+            "eventpic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Events/i03_CodeInvicta.png",
+            "description":"The coming together of all the 4 campuses in a first of its kind event created quite a buzz among the students, and so did the sessions with the industry expert, and YouTube sensation Amam Dhattarwal. This event was aimed at introducing competitive programming among the beginners and creating a conducive environment for the same by exposing students to the fierce competition in the aforesaid."
         },
         {
             "id":"2",
-            "title":"Code For Fun",
-            "eventpic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Events/i02_CodeForFun.png",
-            "description":"A daily series of Instagram stories, titled Code For Fun was started, where a question related to programming was asked the first day and the answer to the same was provided the next day. Code For Fun was of objective type, instead of subjective, so that people could test the accuracy of their knowledge on a particular topic/concept and not stand confused. "
+            "title":"Leaders League",
+            "eventpic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Events/i05_LeadersLeague.png",
+            "description":"The 20-question challenging quiz and the fierce competition witnessed in it, along with the mock interview with the industry experts was the major highlight of this event."
         },
         {
             "id":"3",
@@ -20,15 +20,15 @@
         },
         {
             "id":"4",
-            "title":"Leaders League",
-            "eventpic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Events/i05_LeadersLeague.png",
-            "description":"The 20-question challenging quiz and the fierce competition witnessed in it, along with the mock interview with the industry experts was the major highlight of this event."
+            "title":"Code For Fun",
+            "eventpic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Events/i02_CodeForFun.png",
+            "description":"A month long series hosted on Social media, where one question was posted on the insta story every alternate day with it's explanation on the next day. Where the one with most correct answers got a shoutout on our story, every Sunday!"
         },
         {
             "id":"5",
-            "title":"Code Invicta",
-            "eventpic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Events/i03_CodeInvicta.png",
-            "description":"The coming together of all the 4 campuses in a first of its kind event created quite a buzz among the students, and so did the sessions with the industry expert, and YouTube sensation Amam Dhattarwal. This event was aimed at introducing competitive programming among the beginners and creating a conducive environment for the same by exposing students to the fierce competition in the aforesaid."
+            "title":"Codeyessey",
+            "eventpic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Events/i04_Codeyessey.png",
+            "description":"A Competitive Coding contest was hosted on CodeChef platform in ACM-ICPC Style with easy to medium level of difficulty only. The contest was a prized contest with a prize poll of Rs. 2000/-. It witnessed students competing in large numbers and taking initiatives. It also helped establish a culture of programming, collective growth and self-learning, all of which are sure to thrive in future too. "
         }
     ]
 }

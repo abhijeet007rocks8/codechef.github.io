@@ -2,15 +2,15 @@
     "upcoming":[
         {
             "title":"CodeInvicta",
-            "timing":"12:00 AM - 01:00 PM, 28th Nov 2020 Monday",
+            "timing":"24th -26th March 2020 Wednesday-Friday",
             "poster":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Events/i05_LeadersLeague.png",
-            "description":"Description1 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
+            "description":"The coming together of all the 4 campuses in a first of its kind event created quite a buzz among the students, and so did the sessions with the industry expert, and YouTube sensation Amam Dhattarwal. This event was aimed at introducing competitive programming among the beginners and creating a conducive environment for the same by exposing students to the fierce competition in the aforesaid.",
             "social":{
-                "linkedin":"Link1",
-                "instagram":"link2",
-                "twitter":"link3"
+                "linkedin":"https://www.linkedin.com/posts/codechefvitbhopal_codechef-codechefchapters-codechefcollegechapters-activity-6780348373091393536-z6Xs",
+                "instagram":"https://www.instagram.com/p/CMr3p4dJhjN/?utm_source=ig_web_copy_link",
+                "twitter":"https://twitter.com/codechefvitb/status/1373680118992760832/photo/1"
             },
-            "register":"go.co/eventurl123"
+            "register":"https://codeinvicta.codechefvit.com"
         }
     ]
 }

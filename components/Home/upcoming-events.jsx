@@ -52,6 +52,7 @@ export default function Upcoming() {
     );
 }
 
+
 const Card = styled.div`
     display:flex;
     width:fit-content;
@@ -153,7 +154,8 @@ const Icon = styled.div`
     width: 40px;
     height: 40px; 
   }
-}`;
+`
+;
 
 const Social = styled.div`
   display:flex;
@@ -178,9 +180,6 @@ const Imag =styled.div`
   height:auto;
   width:100%;
   margin-left:1rem;
-//   border-top-left-radius:10px;
-//   border-top-right-radius:0px;
-//   border-bottom-left-radius:10px;
   overflow:hidden;
   @media (max-width: 575px) {
     width:100%;
