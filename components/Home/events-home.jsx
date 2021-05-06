@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
-import{Card,Button,About,Imag,TitleImg,DisplayFlex,Discription,ETitle,Details,LCard,Desktop,Mobile} from './styles';
+import{Card,Button,Imag,TitleImg,DisplayFlex,Discription,ETitle,Details,LCard,Desktop,Mobile} from './styles';
 import events from "../../data/events.json"
 import {FaAngleDoubleLeft,FaAngleDoubleRight} from 'react-icons/fa'
+import Link from 'next/link'
 import styled from 'styled-components'
 
 export default function events_home() {
@@ -74,7 +75,8 @@ export default function events_home() {
                             {node.title}
                         </ETitle>
                         <Details>
-                            {node.description}
+                            {(node.description).length<=175?node.description:(node.description).substring(0,160)+" ......."}
+                            <div style={{color:'blue'}}><Link href="/Events">Read More</Link></div>
                         </Details>
                     </Discription>
                     </LCard>)}
@@ -89,7 +91,8 @@ export default function events_home() {
                             {node.title}
                         </ETitle>
                         <Details>
-                            {node.description}
+                            {(node.description).length<=175?node.description:(node.description).substring(0,160)+" ......."}
+                            <div style={{color:'blue'}}><Link href="/Events">Read More</Link></div>
                         </Details>
                     </Discription>
                     </Card>}
@@ -105,7 +108,8 @@ export default function events_home() {
                             {node.title}
                         </ETitle>
                         <Details>
-                            {node.description}
+                        {(node.description).length<=175?node.description:(node.description).substring(0,160)+" ......."}
+                            <div style={{color:'blue'}}><Link href="/Events">Read More</Link></div>
                         </Details>
                     </Discription>
                     </LCard>}
@@ -124,7 +128,8 @@ export default function events_home() {
                             {node.title}
                         </ETitle>
                         <Details>
-                            {node.description}
+                        {(node.description).length<=175?node.description:(node.description).substring(0,160)+" ......."}
+                            <div style={{color:'blue'}}><Link href="/Events">Read More</Link></div>
                         </Details>
                     </Discription>
                     </Card>)}

@@ -123,6 +123,7 @@ export const Details=styled.div`
     color:grey;
     font-size:1.1rem;
     display:flex;
+    flex-direction:row;
     flex-wrap:wrap;
     margin:0.5rem 1rem;
     font-family:roboto;

@@ -1,14 +1,11 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
-import { useRouter } from "next/router";
 import styled from 'styled-components';
 import {GiHamburgerMenu} from 'react-icons/gi'
-// import {Nav,Logo,NavMenu,NavItem,MobNav,MenuWrapper,MobNavItem,MobNavmenu} from './nav-styles'
 import { ImCross } from "react-icons/im";
 
 const Navbar = () =>{
 
-  const router = useRouter();
   const[show,setshow]=useState(false);
   return(
     <>
