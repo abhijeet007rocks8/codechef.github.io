@@ -60,6 +60,7 @@ font-family:"Quicksand",sans-serif;
 flex-wrap:wrap;
 padding: 1rem 2rem;
 background:#4a74f5;
+color:#fff;
 border-radius:10px;
 display: flex;
 margin:2% 15%;
