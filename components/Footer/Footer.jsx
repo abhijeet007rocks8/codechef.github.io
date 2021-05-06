@@ -15,7 +15,6 @@ import styled from "styled-components";
 
 const Footer = () => (
   <>
-  
     <BackImg>
       <Back src="/imageasset/footer.png"/>
     </BackImg>

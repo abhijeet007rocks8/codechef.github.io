@@ -11,6 +11,9 @@ import styled from 'styled-components'
 export default function Home() {
   return (
     <>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+    </style>
     <div className={styles.container}>
     <BackImg>
       <Back src="/imageasset/navbg.png"/>
