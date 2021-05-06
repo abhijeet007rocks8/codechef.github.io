@@ -207,9 +207,8 @@ export const Button = styled.button`
     background:transparent;
     color:black;
     font-size:1.5rem;
-    transition: font-size .35s ease-in-out;
+    transition: color .35s ease-in-out;
     :hover{
-       font-size:1.8rem;
         color: blue;
         border:transparent;
     }

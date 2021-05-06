@@ -2,13 +2,7 @@ import React from 'react'
 import {Heading} from './styles'
 import upcoming from '../../data/upcoming.json'
 import styled from "styled-components";
-import {
-    SiTwitter,
-    SiFacebook,
-    SiInstagram,
-    SiLinkedin,
-    SiYoutube,
-  } from "react-icons/si";
+import {SiTwitter,SiInstagram,SiLinkedin} from "react-icons/si";
   
 
 export default function Upcoming() {
@@ -109,25 +103,25 @@ const Text = styled.div`
 `;
 
 const Time = styled.div`
-    font-size:1.3rem;
+    font-size:1.7rem;
     margin-top:0.6rem;
     margin-bottom:2rem;
     font-weight:bold;
     @media (max-width: 575px) {
-        font-size:1.1rem;
+        font-size:1.5rem;
     }
 `;
 
 const Description = styled.div`
-    font-size:1.1rem;
+    font-size:1.3rem;
     @media (max-width: 575px) {
-    font-size:1rem;
+    font-size:1.1rem;
     }
 `;
 
 const Register = styled.div`
       margin-top:2rem;
-      font-size:1.3rem;
+      font-size:1.5rem;
       font-weight:bold;
 `;
 

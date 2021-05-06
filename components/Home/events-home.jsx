@@ -14,9 +14,6 @@ export default function events_home() {
     const data = events['events'];
     
     const nextevent = () =>{
-        //  {middle==data.length?setmiddle(1):setmiddle(middle+1)}
-        //  {prev==data.length?setprev(1):setprev(prev+1)}
-        //  {next==data.length?setnext(1):setnext(next+1)}
         console.log(disableRight)
         
         if(counter<=data.length)
@@ -39,7 +36,6 @@ export default function events_home() {
     }
     
     const previous = () =>{
-        //  {middle<=1?setmiddle(data.length):setmiddle(middle-1)}
         console.log(disableLeft)
         
         if(counter>1)
@@ -55,8 +51,7 @@ export default function events_home() {
              setmiddle(middle-1)
              setprev(prev-1)
          }
-        //  {next<=1?setnext(data.length):setnext(next-1)}
-
+       
          console.log(prev,middle,next,disableLeft)
     }
 
