@@ -202,6 +202,7 @@ z-index:1;
 const Back = styled.img`
     height:400px;
     width:100%;
+    display: list-item;
     @media (max-width: 765px) {
         height:500px;
   }

@@ -1,10 +1,22 @@
-import React from 'react'
+import React, {useState,useEffect} from 'react'
 import articles from "../../data/articles.json"
 import styled from 'styled-components'
 import Footer from '../../components/Footer/Footer';
 
 const Articles = () =>{
     let check=0;
+    const mediumURL="https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/codechef-vit-bhopal"
+    const [articles,setArticles] = useState([]);
+
+    useEffect(() => {
+      fetch(mediumURL)
+        .then(res => res.json())
+        .then(data => {
+          setArticles(data.items);
+        });
+    }, []);
+
+    console.log(articles)
     return(
         <div style={{zIndex:'1'}}>
         <Heading>ARTICLES</Heading>

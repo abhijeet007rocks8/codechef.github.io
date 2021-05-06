@@ -1,10 +1,7 @@
 import React, { useState } from 'react'
-//import {Header} from "./header"
-//import {footer} from "./footer"
 import {RiTwitterLine} from "react-icons/ri";
 import {FaGithubAlt} from "react-icons/fa"
 import {AiOutlineLinkedin} from "react-icons/ai"
-//import {Container, DisplayFlex ,Name,Img,LineB,Job, Heading ,Card, Description, DescriptionContent, Profile, Social, Details, DisplayGrid} from "./team-styles.js"
 import styled from 'styled-components'
 import teamdata from "../../data/team.json"
 import '../../styles/Home.module.css'
@@ -181,10 +178,10 @@ font-size:15px;}
 `;
 
   const DescriptionContent=styled.p`
-    font-size:1.2rem;
+    font-size:1.1rem;
     display:flex;
     justify-content:center;
-    margin: 0.2rem 0.6rem;
+    margin: 0.2rem 0.5rem;
     text-align:center;
 `;
 
@@ -209,7 +206,7 @@ font-size:15px;}
     transition: opacity 0.75s;
     
     p${DescriptionContent}{
-        transform: translateY(30px);
+        transform: translateY(35px);
         transition: transform 0.75s;
     }
     

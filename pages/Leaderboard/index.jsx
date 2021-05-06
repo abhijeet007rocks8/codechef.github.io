@@ -11,8 +11,8 @@ function Leaderboard (){
    const [expanded, setExpanded] = useState(true);
       return(
           <>
-             <Heading>LeaderBoard</Heading> 
-             {leaderboard['events'].map((node)=>(
+      <Heading>LeaderBoard</Heading> 
+        {leaderboard['events'].map((node)=>(
          <div style={{display:"block", width:"-webkit-fill-available", margin:"1rem 2rem"}}>
       <HeaderStyled onClick={() => setExpanded(!expanded)}>
       <TitleStyled>{node.eventname}</TitleStyled>

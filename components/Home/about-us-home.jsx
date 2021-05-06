@@ -9,19 +9,15 @@ export default function AboutHome() {
                     <Para>
                     <Title>About Us</Title>
                     <Content>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    CodeChef VIT Bhopal Chapter is a programming club run and maintained by the official chapter leaders and mentored by CodeChef. The chapter drives to make learning competitive programming accessible to students.    
                     </Content>
                     </Para>
 
                     
                     <Para>
-                    <Title>About Our Goals</Title>
+                    <Title>About Vision</Title>
                     <Content>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    CodeChef VIT Bhopal Chapter believes in providing everyone with a community of dedicated programmers to build a robust Competitive Programming culture on our campus. The chapter aims to make the college's coding culture the very best culture. The community emphasis to smooth your coding skills, data structures and algorithmic knowledge.
                     </Content>
                     </Para>
                 </About>

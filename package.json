@@ -7,10 +7,10 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "deploy": "rm -rf node_modules/.cache && rimraf out && yarn build && yarn export && touch out/.nojekyll && gh-pages -d out -t true"
+    "deploy": " touch out/.nojekyll && gh-pages -d out -t true"
   },
   "dependencies": {
-    "next": "10.0.9",
+    "next": "",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-icons": "^3.11.0",
@@ -21,5 +21,13 @@
   "devDependencies": {
     "babel-plugin-styled-components": "^1.12.0",
     "gh-pages": "^3.1.0"
-  }
+  },
+  "include": [
+    "**/*.js",
+    "**/*.jsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "baseUrl": "."
 }

@@ -87,7 +87,7 @@ margin-right:15rem;
     font-size:1.5rem;
     width:fit-content;
     margin:4%;
-    padding:4px;
+    padding:10px;
     font-weight:bolder;
     transition:background 0.45s ease-in-out;
     // transition:color 0.45s ease-in-out;
