@@ -146,7 +146,7 @@ const EventHome = styled.div`
     flex-direction:column;
     align-items:center;
     justify-content:center;
-    margin:1rem 2rem;
+    margin:1rem 3rem;
     margin-top:5rem;
     overflow-x:hidden;
     @media (max-width: 576px) {

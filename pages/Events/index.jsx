@@ -8,7 +8,11 @@ function Events(){
     let check=0;
     return(
         <>
-        <Heading>EVENTS</Heading>
+        <div style={{display:'flex',justifyContent:'center'}}>
+        <Heading>
+          <img src="/imageasset/events-heading.png" width="100%" height="auto"></img>
+        </Heading>
+        </div>
         <DisplayFlex>   
             {events['events'].map((node) => (
             // <div style={{display:"flex",flexDirection:"column",alignSelf:"center",justifyContent:"center", width:"-webkit-fill-available"}}>
@@ -129,13 +133,14 @@ const DisplayFlex = styled.div`
     }
 `;
 
-  const Heading=styled.div`
-    font-size:3rem; 
-    color:#102E46;
-    margin-top: 4%;
-    text-align:center;
-    font-weight:bold;
-    font-family:san-serif;
+  const Heading=styled.div` 
+    margin-top: 2%;
+    display:flex;
+    justify-content:center;
+    width:550px;
+   @media screen and (max-width:565px){
+      width:270px;
+  }
 `;
 
   const Details=styled.div`
@@ -178,16 +183,17 @@ const DisplayFlex = styled.div`
     justify-self:center;
     flex-direction:column;
     flex-wrap:wrap;
-    margin:0rem 1.5rem;
-    margin-bottom:.7rem;
+    margin-right:2rem;
+    margin-bottom:1rem;
     width:60%;
     border-radius: 10px;
     background: #FFFFFF;
-    box-shadow:  15px 15px 30px #bababa,
-             -15px -15px 30px #ffffff;
+    box-shadow:  15px 15px 15px #bababa,
+             -15px -15px 15px #ffffff;
 
     @media (max-width: 767px) {
         width:95%;
+        margin-right: 2rem;
     }         
 `;
 

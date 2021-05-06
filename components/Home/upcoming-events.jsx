@@ -13,8 +13,12 @@ import {
 
 export default function Upcoming() {
     return (
-        <div style={{marginTop:'3rem',marginBottom:'6rem',display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
-            <Heading style={{fontFamily:'Segoe UI'}}>Be Ready For</Heading>
+        <>
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster:wght@300&display=swap');
+        </style>
+        <div style={{marginTop:'5rem',marginBottom:'6rem',display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
+            <Heading style={{fontFamily:'Lobster'}}>Be Ready For</Heading>
             {upcoming['upcoming'].map((node)=>
             <Card>
                <Imag>
@@ -49,6 +53,7 @@ export default function Upcoming() {
             </Card>
             )}
         </div>
+        </>
     );
 }
 
@@ -63,7 +68,7 @@ const Card = styled.div`
     //border: 3px solid #102E46;
     border-radius: 10px;
     background: #FFFFFF;
-    box-shadow:  15px 15px 30px #bababa;
+    box-shadow:  15px 15px 15px #bababa;
     margin: 1rem 3rem;
 
     @media screen and (max-width:565px){
@@ -97,7 +102,7 @@ const Event =styled.div`
 const Text = styled.div`
     margin: 0rem 2rem; 
     margin-right:2rem;
-    font-family:Segoe UI;
+    font-family:Lobster;
     @media screen and (min-width: 1100px) {
         margin-right:-2rem;
         }
@@ -116,7 +121,7 @@ const Time = styled.div`
 const Description = styled.div`
     font-size:1.1rem;
     @media (max-width: 575px) {
-    font-size:0.9rem;
+    font-size:1rem;
     }
 `;
 
@@ -178,9 +183,6 @@ const Imag =styled.div`
   height:auto;
   width:100%;
   margin-left:1rem;
-//   border-top-left-radius:10px;
-//   border-top-right-radius:0px;
-//   border-bottom-left-radius:10px;
   overflow:hidden;
   @media (max-width: 575px) {
     width:100%;

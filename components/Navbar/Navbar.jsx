@@ -89,10 +89,6 @@ margin-right:15rem;
     margin:4%;
     padding:10px;
     font-weight:bolder;
-    transition:background 0.45s ease-in-out;
-    // transition:color 0.45s ease-in-out;
-    // transition:border 0.45s ease-in-out;
-    
 
   :hover{
     background:white;

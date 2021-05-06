@@ -15,8 +15,11 @@ const Team=()=>{
         <style>
          @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
         </style>
-      {/* <Navbar/> */}
-  <Heading>OUR TEAM</Heading>
+  <div style={{display:'flex',justifyContent:'center'}}>
+  <Heading>
+    <img src="/imageasset/Team.png" width="100%" height="auto"></img>
+  </Heading>
+  </div>
     <DisplayFlex>
     <DisplayGrid>   
         {teamdata['teammember'].map((node) => (
@@ -33,9 +36,9 @@ const Team=()=>{
            </Img>
         </Card>
          <Social>
-            <div style={{marginBottom:".3rem"}}><a href={node.social.linkedin}><AiOutlineLinkedin fill="#102E46"/></a></div>
-            <div style={{marginBottom:".3rem"}}><a href={node.social.github}><FaGithubAlt fill="#102E46"/></a></div>
-            <div style={{marginBottom:".3rem"}}><a href={node.social.twitter}><RiTwitterLine fill="#102E46"/></a></div>
+            <div style={{marginBottom:".3rem"}}><a href={node.social.linkedin} target="_blank"><AiOutlineLinkedin fill="#102E46"/></a></div>
+            <div style={{marginBottom:".3rem"}}><a href={node.social.github} target="_blank"><FaGithubAlt fill="#102E46"/></a></div>
+            <div style={{marginBottom:".3rem"}}><a href={node.social.twitter} target="_blank"><RiTwitterLine fill="#102E46"/></a></div>
             <LineB style={{marginTop:".5rem",marginLeft:".6rem",width:"3px",background:"#102E46"}}></LineB>
          </Social>
          </Profile>
@@ -122,13 +125,10 @@ const Team=()=>{
    color:dark-blue;
 `;
   const Heading=styled.div`
-    font-size:3rem; 
-    color:#102E46;
-    margin-top:1rem;
-    padding-bottom:2rem;
-    text-align:center;
-    font-weight:bold;
-    font-family:san-serif;
+  width:550px;
+  @media screen and (max-width:565px){
+     width:270px;
+ }
 `;
   const Details=styled.div`
     color:grey;

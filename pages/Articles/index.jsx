@@ -6,7 +6,7 @@ import Footer from '../../components/Footer/Footer';
 const Articles = () =>{
     let check=0;
     const mediumURL="https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/codechef-vit-bhopal"
-    const [articles,setArticles] = useState([]);
+    const [article,setArticles] = useState([]);
 
     useEffect(() => {
       fetch(mediumURL)
@@ -16,10 +16,14 @@ const Articles = () =>{
         });
     }, []);
 
-    console.log(articles)
+    console.log(article)
     return(
         <div style={{zIndex:'1'}}>
-        <Heading>ARTICLES</Heading>
+          <div style={{display:'flex',justifyContent:'center'}}>
+        <Heading>
+          <img src="/imageasset/Articles.png" width="100%" height="auto"></img>
+        </Heading>
+        </div>
         <DisplayFlex>   
             {articles['articles'].map((node) => (
             // <div style={{display:"flex",flexDirection:"column",alignSelf:"center",justifyContent:"center", width:"-webkit-fill-available"}}>
@@ -124,12 +128,12 @@ const Cardrev=styled.span`
 `;
 
 const Heading=styled.div`
-    font-size:3rem; 
-    color:#102E46;
-    text-align:center;
-    margin-top:4%;
-    font-weight:bold;
-    font-family:san-serif;
+  display:flex;
+  justify-content:center;
+  width:550px;
+   @media screen and (max-width:565px){
+      width:270px;
+  }
 `;
 
 const Details=styled.div`
@@ -177,7 +181,7 @@ const Description=styled.div`
     width:60%;
     border-radius: 10px;
     background: #FFFFFF;
-    box-shadow:  15px 15px 30px #bababa;
+    box-shadow:  15px 15px 15px #bababa;
 
     @media (max-width: 767px) {
         width:95%;

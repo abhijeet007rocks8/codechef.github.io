@@ -1,5 +1,4 @@
 import  React,{useState} from 'react'
-//import {Heading, HeaderStyled, TitleStyled, DisplayFlex, Card, Details , Name, Job,Container,DisplayGrid} from './style-leaderboard';
 import styled from 'styled-components';
 import { RiArrowDownSLine, RiArrowRightSLine } from "react-icons/ri";
 import Footer from '../../components/Footer/Footer'
@@ -7,11 +6,14 @@ import leaderboard from '../../data/leaderboard.json';
 
 
 function Leaderboard (){
-   //leaderboard['events'].reverse()
    const [expanded, setExpanded] = useState(true);
       return(
           <>
-      <Heading>LeaderBoard</Heading> 
+          <div style={{display:'flex',justifyContent:'center'}}> 
+      <Heading>
+          <img src="/imageasset/Leaderboard.png" width="100%" height="auto"></img>
+      </Heading>
+      </div>
         {leaderboard['events'].map((node)=>(
          <div style={{display:"block", width:"-webkit-fill-available", margin:"1rem 2rem"}}>
       <HeaderStyled onClick={() => setExpanded(!expanded)}>
@@ -39,14 +41,11 @@ function Leaderboard (){
 
 
 
-  const Heading=styled.div`
-    font-size:3rem; 
-    color:#102E46;
-    margin-top:1rem;
-    padding-bottom:2rem;
-    text-align:center;
-    font-weight:bold;
-    font-family:san-serif;
+const Heading=styled.div`
+  width:550px;
+  @media screen and (max-width:565px){
+     width:270px;
+ }
 `;
 
   const DisplayGrid = styled.div`
@@ -84,10 +83,7 @@ function Leaderboard (){
     //border: 3px solid #102E46;
     border-radius: 10px;
     background: #FFFFFF;
-    box-shadow:  15px 15px 30px #bababa;
-             
-
-    
+    box-shadow:  15px 15px 15px #bababa;    
 `;
 
   const Details=styled.div`

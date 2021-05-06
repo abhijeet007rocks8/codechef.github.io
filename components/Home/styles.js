@@ -17,7 +17,7 @@ export const Card=styled.div`
     //border: 3px solid #102E46;
     border-radius: 10px;
     background: #FFFFFF;
-    box-shadow:  15px 15px 30px #bababa;
+    box-shadow:  15px 15px 15px #bababa;
     margin: 1rem 3rem;
     
     @media screen and (max-width:1100px){
@@ -170,7 +170,7 @@ export const ECard=styled.div`
     //border: 3px solid #102E46;
     border-radius: 10px;
     background: #FFFFFF;
-    box-shadow:  15px 15px 30px #bababa;
+    box-shadow:  15px 15px 15px #bababa;
     margin: 1rem 3rem;
 
     @media screen and (max-width:565px){
@@ -192,7 +192,7 @@ export const LCard=styled.div`
     //border: 3px solid #102E46;
     border-radius: 10px;
     background: #FFFFFF;
-    box-shadow:  15px 15px 30px #bababa;
+    box-shadow:  15px 15px 15px #bababa;
     margin: 2rem 2rem;
 
     @media screen and (max-width:800px){
@@ -282,6 +282,7 @@ export const Desktop = styled.div`
 export const Mobile = styled.div`
     display:flex;
     justify-content:center;
+    margin-bottom:1.1rem;
     @media screen and (min-width:767px){
         display:none;
     }
