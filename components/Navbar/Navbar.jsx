@@ -32,7 +32,7 @@ const Navbar = () =>{
             <MobNavItem><Link href="/">Home</Link></MobNavItem>
             <MobNavItem><Link href="/Events">Events</Link></MobNavItem>
             <MobNavItem><Link href="/Articles">Articles</Link></MobNavItem>
-            <MobNavItem><Link href="/team">Team</Link></MobNavItem>
+            <MobNavItem><Link href="/Team">Team</Link></MobNavItem>
             <MobNavItem><Link href="/Leaderboard">LeaderBoard</Link></MobNavItem>
        </MobNavmenu>
        </MenuWrapper>
@@ -122,7 +122,6 @@ margin-right:15rem;
         margin-left:1rem;
     }
 `;
-
 
 
 

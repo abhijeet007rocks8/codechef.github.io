@@ -9,7 +9,7 @@ export default function Upcoming() {
     return (
         <>
         <style>
-        @import url('https://fonts.googleapis.com/css2?family=Lobster:wght@300&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
         </style>
         <div style={{marginTop:'5rem',marginBottom:'6rem',display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
             <Heading style={{fontFamily:'Lobster'}}>Be Ready For</Heading>
@@ -73,7 +73,7 @@ const Card = styled.div`
 `;
 
 const UpcomingE =styled.div`
-    margin-top:-3rem;
+    margin-top:-9rem;
     top:0;
     margin-left:1rem;
     left:90%;
@@ -96,7 +96,8 @@ const Event =styled.div`
 const Text = styled.div`
     margin: 0rem 2rem; 
     margin-right:2rem;
-    font-family:Lobster;
+    color:grey;
+    font-family:'Lobster',cursive;
     @media screen and (min-width: 1100px) {
         margin-right:-2rem;
         }
@@ -106,7 +107,7 @@ const Time = styled.div`
     font-size:1.7rem;
     margin-top:0.6rem;
     margin-bottom:2rem;
-    font-weight:bold;
+    font-weight:500;
     @media (max-width: 575px) {
         font-size:1.5rem;
     }
@@ -122,7 +123,7 @@ const Description = styled.div`
 const Register = styled.div`
       margin-top:2rem;
       font-size:1.5rem;
-      font-weight:bold;
+      font-weight:500;
       @media (max-width: 575px) {
         font-size:1.3rem;
     }

@@ -40,7 +40,7 @@ const Articles = () =>{
                 --{node.author}
                 </Author>
                 <Details>
-                {(toText(node.content)).substring(0,945)+"  ........."}
+                {(toText(node.content)).substring(0,845)+"  ........."}
                 </Details>
               </Description>
             </Card></a>}
@@ -55,7 +55,7 @@ const Articles = () =>{
                 --{node.author}
                 </Author>
                 <Details>
-                      {(toText(node.content)).substring(0,945)+"  ........."}
+                      {(toText(node.content)).substring(0,845)+"  ........."}
                 </Details>
               </Description>
               <Img>
@@ -139,7 +139,7 @@ const Heading=styled.div`
 
 const Details=styled.div`
     color:grey;
-    font-size:1.1rem;
+    font-size:1.3rem;
     display:flex;
     flex-wrap:wrap;
     margin:0.5rem 1rem;
@@ -183,10 +183,11 @@ const Description=styled.div`
     width:60%;
     border-radius: 10px;
     background: #FFFFFF;
-    box-shadow:  15px 15px 15px #bababa;
+    box-shadow:  15px 15px 10px #bababa;
 
     @media (max-width: 768px) {
         width:95%;
+        box-shadow:  10px 10px 7px #bababa;
     }         
 `;
 
@@ -205,7 +206,7 @@ const Author=styled.div`
     text-align:right;
     font-family:"Quicksand",sans-serif;
     font-size:1.2rem;
-    font-weight:500;
+    font-weight:600;
     margin:0rem 1rem;
     @media (max-width: 576px) {
       width:97%; 

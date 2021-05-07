@@ -121,7 +121,7 @@ export const Imag =styled.div`
 
 export const Details=styled.div`
     color:grey;
-    font-size:1.1rem;
+    font-size:1.2rem;
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
@@ -130,7 +130,7 @@ export const Details=styled.div`
     @media (max-width: 576px) {
       width:97%; 
       margin:0.5rem 0.3rem;
-      font-size:1rem;
+      font-size:1.1rem;
     }
 `;
 
@@ -221,7 +221,7 @@ background: #4a74f5;
 border-radius: 65px;
 color: white;
 font-family: Roboto;
-margin: -6rem;
+margin: -6.5rem;
 padding: 1.2rem;
 font-size: 2.0rem;
 font-weight: bold;
@@ -245,11 +245,11 @@ transition: border .45s ease-in-out;
     }
 
     @media screen and (max-width:565px){
-        margin:-1.3rem;
-        padding:0.2rem;
+        margin:-1.8rem;
+        padding:0.5rem;
         font-size:.8rem;
         :hover{
-            font-size:1.2rem;
+            font-size:1.1rem;
         }
     }
 `; 

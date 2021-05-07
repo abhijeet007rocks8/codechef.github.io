@@ -145,7 +145,7 @@ const DisplayFlex = styled.div`
 
   const Details=styled.div`
     color:grey;
-    font-size:1.1rem;
+    font-size:1.5rem;
     display:flex;
     flex-wrap:wrap;
     margin:0.5rem 1rem;
@@ -153,7 +153,7 @@ const DisplayFlex = styled.div`
     @media (max-width: 576px) {
       width:97%; 
       margin:0.5rem 0.3rem;
-      font-size:1rem;
+      font-size:1.2rem;
     }
 `;
 
@@ -168,13 +168,13 @@ const DisplayFlex = styled.div`
   const Title=styled.div`
     font-family:"Quicksand",sans-serif;
     flex-wrap:wrap;
-    font-size:1.5rem;
+    font-size:1.8rem;
     font-weight:bold;
     margin: 1rem;
     @media (max-width: 767px) {
       width:97%; 
       margin:0.5rem 0.3rem;
-      font-size:1.3rem;
+      font-size:1.5rem;
     }
 `;
 
@@ -184,16 +184,17 @@ const DisplayFlex = styled.div`
     flex-direction:column;
     flex-wrap:wrap;
     margin-right:2rem;
-    margin-bottom:1rem;
+    padding-bottom:2rem;
     width:60%;
     border-radius: 10px;
     background: #FFFFFF;
-    box-shadow:  15px 15px 10px #bababa,
-             -15px -15px 10px #ffffff;
+    box-shadow:  15px 15px 10px #bababa;
 
     @media (max-width: 767px) {
         width:95%;
         margin-right: 0rem;
+        box-shadow:  10px 10px 7px #bababa;
+        padding-bottom:1.5rem;
     }         
 `;
 
