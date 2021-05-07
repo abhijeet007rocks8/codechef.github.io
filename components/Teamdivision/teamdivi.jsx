@@ -72,9 +72,13 @@ cursor: pointer;
 
 @media (max-width: 768px) {
     margin: 2rem;
+    padding: 1rem;
+
 }
 @media (max-width: 576px) {
   margin:0rem;
+  padding: 1rem 1rem;
+
 }
 
 `;
@@ -215,6 +219,9 @@ font-size:15px;}
     justify-content:center;
     margin: 0.2rem 0.5rem;
     text-align:center;
+    @media (max-width: 576px) {
+      font-size:0.87rem;
+  }
 `;
 
 

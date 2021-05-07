@@ -188,12 +188,12 @@ const DisplayFlex = styled.div`
     width:60%;
     border-radius: 10px;
     background: #FFFFFF;
-    box-shadow:  15px 15px 15px #bababa,
-             -15px -15px 15px #ffffff;
+    box-shadow:  15px 15px 10px #bababa,
+             -15px -15px 10px #ffffff;
 
     @media (max-width: 767px) {
         width:95%;
-        margin-right: 2rem;
+        margin-right: 0rem;
     }         
 `;
 

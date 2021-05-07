@@ -63,7 +63,7 @@ height: fit-content;
 max-width:315px;
 border-radius: 10px;
 background: #FFFFFF;
-box-shadow:  15px 15px 15px #bababa;
+box-shadow:  10px 10px 10px #bababa;
 margin-bottom:2rem;
 `;
 
@@ -102,6 +102,7 @@ cursor: pointer;
 }
 @media (max-width: 576px) {
   margin:0rem;
+  margin-bottom:1rem;
 }
 `;
 

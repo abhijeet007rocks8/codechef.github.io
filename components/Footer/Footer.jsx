@@ -147,25 +147,24 @@ const Container = styled.div`
   width:100%;
   margin: 0px auto;
   margin-top:1.5rem;
-  /* Extra small devices (phones, 575px and down) */
+
   @media (max-width: 575px) {
-    padding: 0rem 0rem;
-    
+    padding: 0rem 0rem;    
   }
-  /* Small devices (portrait tablets and large phones, 575px and up) */
+  
   @media (min-width: 575px) {
   }
-  /* Medium devices (landscape tablets, 767px and up) */
+  
   @media (max-width: 767px) {
     background:#4a74f5;
     justify-content:center;
     width: 100%;
   }
-  /* Large devices (laptops/desktops, 991px and up) */
+  
   @media (min-width: 991px) {
     max-width: 900px;
   }
-  /* Extra large devices (large laptops and desktops, 1199px and up) */
+  
   @media (min-width: 1199px) {
     max-width: 1100px;
   }
@@ -175,7 +174,6 @@ const Social = styled.div`
   display:flex;
   margin-top:1rem;
   justify-content:center;
-  //margin-left:6rem;
   flex-wrap:wrap;
   z-index:1;
   @media (max-width: 991px) {
@@ -225,9 +223,10 @@ const Copyright =styled.p`
     flex-wrap:wrap;
     color:white;
     text-align:left;
-    margin: 0.4rem 3rem;
+    margin: 0.4rem 0rem;
     @media (max-width: 767px){
     text-align:center;
+    margin: 0.4rem 3rem; 
     }
 `; 
 
