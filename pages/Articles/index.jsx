@@ -1,60 +1,67 @@
 import React, {useState,useEffect} from 'react'
-import articles from "../../data/articles.json"
 import styled from 'styled-components'
 import Footer from '../../components/Footer/Footer';
+import toText from '../../utility/toText'
 
 const Articles = () =>{
     let check=0;
     const mediumURL="https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/codechef-vit-bhopal"
     const [article,setArticles] = useState([]);
 
-    useEffect(() => {
-      fetch(mediumURL)
+    useEffect( async () => {
+      await fetch(mediumURL)
         .then(res => res.json())
         .then(data => {
-          setArticles(data.items);
+          setArticles(data.items.reverse());
         });
     }, []);
 
-    console.log(article)
     return(
         <div style={{zIndex:'1'}}>
           <div style={{display:'flex',justifyContent:'center'}}>
         <Heading>
           <img src="/imageasset/Articles.png" width="100%" height="auto"></img>
         </Heading>
+        {console.log(article)}
         </div>
         <DisplayFlex>   
-            {articles['articles'].map((node) => (
-            // <div style={{display:"flex",flexDirection:"column",alignSelf:"center",justifyContent:"center", width:"-webkit-fill-available"}}>
+            {article.map((node) => (
             <Event>
-            {++check%2!=0 && <Card>
-               <Img>
-               <Image src={node.eventpic} width="100%"></Image>                 
-               </Img>
-               <Description>
+            {++check%2!=0 && <a href={node.link} target="_blank">
+            <Card>
+              <Img>
+              <Image src={node.thumbnail} width="100%"></Image>                 
+              </Img>
+              <Description>
                 <Title>
                       {node.title}
                 </Title>
+                <Author>
+                --{node.author}
+                </Author>
                 <Details>
-                      {node.description}
+                {(toText(node.content)).substring(0,945)+"  ........."}
                 </Details>
               </Description>
-            </Card>}
+            </Card></a>}
 
-            {check%2==0 && <Cardrev>
+            {check%2==0 && <a href={node.link} target="_blank">
+            <Cardrev>
                <Description>
                 <Title>
                       {node.title}
                 </Title>
+                <Author>
+                --{node.author}
+                </Author>
                 <Details>
-                      {node.description}
+                      {(toText(node.content)).substring(0,945)+"  ........."}
                 </Details>
               </Description>
               <Img>
-               <Image src={node.eventpic} width="100%"></Image>                 
+               <Image src={node.thumbnail} width="100%"></Image>                 
                </Img>
-            </Cardrev>}
+            </Cardrev></a>}
 
             </Event>
               ))}
@@ -65,12 +72,6 @@ const Articles = () =>{
            </div>
     );
 }
-
-const Container = styled.div`
-  display:block;
-  justify-content:center;
-  align-items:center;
-`;
 
 const DisplayFlex = styled.div`
     padding:.2rem;
@@ -101,11 +102,11 @@ const Card=styled.span`
     align-items:center;
     overflow:hidden;
     margin:1rem;
-    @media (max-width:767px)
+    @media (max-width:768px)
     {
       flex-direction:column;
       margin:0rem;
-      margin-bottom:.7rem;
+      margin-bottom:3rem;
     }
 `;
 
@@ -119,11 +120,11 @@ const Cardrev=styled.span`
     border-radius:1rem;
     overflow:hidden;
     margin:1rem;
-    @media (max-width:767px)
+    @media (max-width:768px)
     {
       flex-direction: column-reverse;
       margin:0rem;
-      margin-bottom:.7rem;
+      margin-bottom:3rem;
     }
 `;
 
@@ -152,6 +153,7 @@ const Details=styled.div`
 
 const Img=styled.div` 
   margin:1rem;
+  flex:1;
 `;
 
 const Image=styled.img` 
@@ -183,7 +185,7 @@ const Description=styled.div`
     background: #FFFFFF;
     box-shadow:  15px 15px 15px #bababa;
 
-    @media (max-width: 767px) {
+    @media (max-width: 768px) {
         width:95%;
     }         
 `;
@@ -199,4 +201,16 @@ const Event=styled.div`
   }   
 `;
 
+const Author=styled.div`
+    text-align:right;
+    font-family:"Quicksand",sans-serif;
+    font-size:1.2rem;
+    font-weight:500;
+    margin:0rem 1rem;
+    @media (max-width: 576px) {
+      width:97%; 
+      margin:0.5rem 0.3rem;
+      font-size:1.1rem;
+    }
+`;
 export default Articles;
