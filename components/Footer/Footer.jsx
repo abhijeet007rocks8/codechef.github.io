@@ -130,13 +130,12 @@ const Icon = styled.div`
   align-items: center;
   border-radius: 50%;
   font-size: 1.5rem;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.03);
+  // box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.03);
   transition: width .35s ease-in-out;
   transition: height .35s ease-in-out;
   &:hover {
     cursor: pointer;
-    width: 60px;
-    height: 60px; 
+    box-shadow: white 0px 0px 10px 0px; 
   }
   @media (max-width: 991px) {
    font-size:1.3rem;
