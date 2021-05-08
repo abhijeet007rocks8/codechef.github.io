@@ -68,7 +68,7 @@
               },
 
               {
-                 "category" : "Team Member",
+                 "category" : "Executive Team",
                  "members" : [
                     {
                     "name":"Siddhant Singh",
@@ -223,7 +223,7 @@
                         "name":"Nikhil",
                          "title":"Web Developer",
                          "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/Nikhil.jpg",
-                         "description":"Self motivated and versatile developer with extraordinary desiging skills.I believe in 'It is Important to Follow Your Dreams and Heart. Do Something that Excites You.'",
+                         "description":"A visionary seeker of technical know-how , but a lover of something else :) Reference to different folks' codes is the major source to learn. One so fond of dwelling in loop of errors who go for making it work, making it right and making it fast.",
                          "social":{
                              "linkedin":"https://www.linkedin.com/in/nikhil-kumar-das-831a691a8/",
                              "github":"https://github.com/NikhilKD",
@@ -272,6 +272,17 @@
                              "linkedin":"https://www.linkedin.com/in/ashray-gupta-9a9028ba/",
                              "github":"",
                              "twitter":""
+                         } 
+                     },
+                     {
+                        "name":"Janmesh Singh",
+                         "title":"Graphic Designer",
+                         "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/Janmesh.jpg",
+                         "description":"A voyager who sails with a fascination for innovation, lands on the port of imagination and inspiration. His curiosity leads him to creativity and ingenuity.",
+                         "social":{
+                             "linkedin":"https://www.linkedin.com/in/janmeshsingh00/",
+                             "github":"https://github.com/janmeshjs",
+                             "twitter":"https://twitter.com/janmeshsingh2"
                          } 
                      }
                 ]
