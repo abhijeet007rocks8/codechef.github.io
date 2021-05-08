@@ -7,8 +7,8 @@
             "description":"Description1",
             "social":{
                 "linkedin":"https://www.linkedin.com/in/surya-x",
-                "github":"https://github.com/iiabhayii",
-                "twitter":"https://twitter.com/iiBAUCEii"
+                "github":"https://github.com/surya-x",
+                "twitter":"https://twitter.com/v_surya_kumar"
             }
         },
         {
@@ -155,7 +155,7 @@
              } 
          },
          {
-            "name":"Vishesh",
+            "name":"Vishesh Tripathi",
              "title":"Editorialist",
              "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/VisheshTripathi.png",
              "description":"Description1",
@@ -177,7 +177,7 @@
              } 
          },
          {
-            "name":"Nikhil",
+            "name":"Nikhil Kumar Das",
              "title":"Developer",
              "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/Nikhil.jpg",
              "description":"Description1",
