@@ -11,7 +11,7 @@ function Teamdivi(node) {
     return (
         <>
         <style>
-         @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
         </style>
     <div style={{display:"block", width:"-webkit-fill-available", margin:"1rem 2rem"}}>
       <HeaderStyled onClick={() => setExpanded(!expanded)}>
@@ -63,7 +63,7 @@ background:#4a74f5;
 color:#fff;
 border-radius:10px;
 display: flex;
-margin:2% 15%;
+margin:2% 8%;
 font-size: 2.2rem;
 -webkit-box-pack: justify;
 justify-content: space-between;
@@ -77,7 +77,7 @@ cursor: pointer;
 }
 @media (max-width: 576px) {
   margin:0rem;
-  padding: 1rem 1rem;
+  padding: 0.5rem 0.9rem;
 
 }
 

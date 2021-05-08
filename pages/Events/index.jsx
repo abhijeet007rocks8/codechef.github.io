@@ -56,12 +56,6 @@ function Events(){
 }
 
 
-const Container = styled.div`
-  display:block;
-  justify-content:center;
-  align-items:center;
-`;
-
 const DisplayFlex = styled.div`
     padding:.2rem;
     display: flex;
@@ -193,8 +187,9 @@ const DisplayFlex = styled.div`
     @media (max-width: 767px) {
         width:95%;
         margin-right: 0rem;
-        box-shadow:  10px 10px 7px #bababa;
-        padding-bottom:1.5rem;
+        box-shadow:  10px 10px 5px #bababa;
+        padding-bottom:0rem;
+        margin-bottom:1.1rem;
     }         
 `;
 

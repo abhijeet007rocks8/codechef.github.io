@@ -1,17 +1,17 @@
 {
     "teammember":[
               { 
-                  "category":"Co-ordinator",
+                  "category":"Faculty Advisor",
                   "members":[
                     {
-                        "name":" V Surya Kumar ",
-                        "title":"President",
+                        "name":"",
+                        "title":"Faculty Advisor",
                         "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/SuryaKumarV.jpg",
                         "description":"He's the one who evangelizes programming and believes in bringing revolution through innovation. Surya is an algorithmic wizard who aims to drive this chapter to the point of no return. For him improving every minute feat & decision matters and that’s what makes him the President of this Chapter.            ",
                         "social":{
-                            "linkedin":"https://www.linkedin.com/in/surya-x",
-                            "github":"https://github.com/iiabhayii",
-                            "twitter":"https://twitter.com/iiBAUCEii"
+                            "linkedin":"",
+                            "github":"",
+                            "twitter":""
                         }
                     }
                   ]
@@ -21,7 +21,7 @@
                   "category":"Core Team",
                   "members":[
                     {
-                        "name":" V Surya Kumar ",
+                        "name":"V Surya Kumar ",
                         "title":"President",
                         "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/SuryaKumarV.jpg",
                         "description":"He's the one who evangelizes programming and believes in bringing revolution through innovation. Surya is an algorithmic wizard who aims to drive this chapter to the point of no return. For him improving every minute feat & decision matters and that’s what makes him the President of this Chapter.            ",
@@ -38,8 +38,8 @@
                         "description":"In the world of programming, one must tirelessly endeavour to achieve success, to make pieces of codes which have the power to bring change. Our competitive lead is empowered with such skills, presenting to you Akshat Goyal our Competitive Coding Lead.",
                         "social":{
                             "linkedin":"https://www.linkedin.com/in/akshat-goyal-920183202/",
-                            "github":"Link1",
-                            "twitter":"Link1"
+                            "github":"",
+                            "twitter":""
                         } 
                     },
                     {
@@ -59,9 +59,9 @@
                          "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/AbhishekPatnigere.jpg",
                          "description":"It is said that 'He who climbs the ladder must begin at the bottom'. We at Codechef VIT Bhopal chapter had begun climbing the ladder from the bottom and he has been with us since the beginning. Meet our Events Lead Abhishek Patnigere.",
                          "social":{
-                             "linkedin":"Link1",
-                             "github":"Link1",
-                             "twitter":"Link1"
+                             "linkedin":"",
+                             "github":"",
+                             "twitter":""
                          } 
                      }
                   ]
@@ -87,9 +87,9 @@
                     "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/ChiragSharma.jpg",
                     "description":"We at Codechef college chapter of VIT Bhopal aim to help everyone take their problem-solving skills as well as their competitive programming to the next level. And workshops and events are a great place to do this. Presenting Event & PR manager, Chirag Sharma.",
                     "social":{
-                        "linkedin":"Link1",
-                        "github":"Link1",
-                        "twitter":"Link1"
+                        "linkedin":"",
+                        "github":"",
+                        "twitter":""
                     } 
                 },
                 {
@@ -99,7 +99,7 @@
                     "description":"A team and its individuals can only thrive when they are bound by efficiency in communication and the drive to engage. Filling up our team with these drives is our Logistics and Outreach Manager, Arpita Das, CodeChef VIT",
                     "social":{
                         "linkedin":"https://www.linkedin.com/in/arpita-das-9a91671aa/",
-                        "github":"Link1",
+                        "github":"",
                         "twitter":"https://twitter.com/Arpiiitaaa"
                     } 
                 },
@@ -110,8 +110,8 @@
                     "description":"In a world with clichés, her methods are ingenious. She works hard and plays harder. She is ambitious, driven and always brings solutions to the table. We proudly present Aadira Ramakrishnan, Outreach and Logistics Manager.",
                     "social":{
                         "linkedin":"linkedin.com/in/aadira-ramakrishnan-0694341a0",
-                        "github":"Link1",
-                        "twitter":"Link1"
+                        "github":"",
+                        "twitter":""
                     } 
                 },
                 {
@@ -121,8 +121,8 @@
                     "description":"In this world of bhuvam bams and biswas, you can't get anywhere without gobsmacking unputdownable content to market yourself. Acknowledging this, we have decided to make our chapter, the coolest one- it is official now! When not writing, she can be found sniffing pages of old books and bugs in your code. Presenting Sumedha Poonia-Content Writer, Codechef VIT Bhopal",
                     "social":{
                         "linkedin":"https://www.linkedin.com/in/sumedha-p-595938134",
-                        "github":"Link1",
-                        "twitter":"Link1"
+                        "github":"",
+                        "twitter":""
                     } 
                 },
                 {
@@ -155,7 +155,7 @@
                     "social":{
                         "linkedin":"https://www.linkedin.com/in/shivam-paliya-352b3282/",
                         "github":"https://github.com/shivampaliya64",
-                        "twitter":"Link1"
+                        "twitter":""
                     } 
                 },
                 {
@@ -186,7 +186,7 @@
                     "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/VisheshTripathi.png",
                     "description":"Whether you want to uncover the secrets of the universe, or you just want to pursue a career in the 21st century, programming is essential. Meet our hawk-eyed boy who with his penetrating vision can never miss a new coding riddle. He can code for a whole night, and still be craving for some more in the morning. Presenting our Editorialist, Vishesh Tripathi",
                     "social":{
-                        "linkedin":"Link1",
+                        "linkedin":"",
                         "github":"https://github.com/Vishesht27",
                         "twitter":"https://twitter.com/vishesht27"
                     } 
@@ -197,9 +197,9 @@
                     "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/AnkitSagar.png",
                     "description":"In the world of development, good pace and efficiency is a must. So with the same abilities and functionalities, Presenting Ankit sagar. developer, CodeChef VIT-Bhopal.",
                     "social":{
-                        "linkedin":"Link1",
-                        "github":"Link1",
-                        "twitter":"Link1"
+                        "linkedin":"",
+                        "github":"",
+                        "twitter":""
                     } 
                 }
                  ]
@@ -211,7 +211,7 @@
                     {
                         "name":"Abhijeet Chatterjee",
                          "title":"Web Developer",
-                         "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/Nikhil.jpg",
+                         "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/Abhijeet.jpg",
                          "description":"Description1",
                          "social":{
                              "linkedin":"https://www.linkedin.com/in/abhijeet-chatterjee-445aa2195/",
@@ -221,13 +221,57 @@
                      },
                      {
                         "name":"Nikhil",
-                         "title":"Graphic Designer",
+                         "title":"Web Developer",
                          "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/Nikhil.jpg",
-                         "description":"Description1",
+                         "description":"Self motivated and versatile developer with extraordinary desiging skills.I believe in 'It is Important to Follow Your Dreams and Heart. Do Something that Excites You.'",
                          "social":{
                              "linkedin":"https://www.linkedin.com/in/nikhil-kumar-das-831a691a8/",
                              "github":"https://github.com/NikhilKD",
                              "twitter":"https://twitter.com/NikhilK34109108"
+                         } 
+                     },
+                     {
+                        "name":"Devanshu Yadav",
+                         "title":"Graphic Designer",
+                         "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/DevanshuYadav.jpg",
+                         "description":"Devanshu - Insightful and Altruistic! What more does a bunch of prominent sages need to jot their ideas down onto the canvas. Devanshu, as Graphic Designer CodeChef VIT-Bhopal, is here to complement his team with a vivid imagination and constant creativity into their commitment.",
+                         "social":{
+                             "linkedin":"https://www.linkedin.com/in/nikhil-kumar-das-831a691a8/",
+                             "github":"https://github.com/NikhilKD",
+                             "twitter":"https://twitter.com/NikhilK34109108"
+                         } 
+                     },
+                     {
+                        "name":"Deepti Shakya",
+                         "title":"Graphic Designer",
+                         "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/DeeptiShakya.jpg",
+                         "description":"Deepti - the last ray of hope when all hope is lost. In the present era of digital content which could be as different as chalk and cheese, we introduce to you all 'Deepti', the Social Media Manager of Code-Chef VIT-Bhopal who will uphold on spreading light around people.",
+                         "social":{
+                             "linkedin":"https://www.linkedin.com/in/deepti-shakya-56aa311ba",
+                             "github":"",
+                             "twitter":""
+                         } 
+                     },
+                     {
+                        "name":"Swarnava Laha",
+                         "title":"Graphic Designer",
+                         "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/SwarnavaLaha.jpg",
+                         "description":"Swarnava. A student with high dreams and aspiration. My journey with codechef VIT Bhopal is quite fantastic. Managing the social media handle is something that requires much cautioness. Looking forward to explore more aspects of it.",
+                         "social":{
+                             "linkedin":"https://www.linkedin.com/in/swarnava-laha-194680200",
+                             "github":"https://github.com/Swarnava77",
+                             "twitter":"https://twitter.com/s_Laha2001/"
+                         } 
+                     },
+                     {
+                        "name":"Ashray Gupta",
+                         "title":"Graphic Designer",
+                         "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/AshrayGupta.jpg",
+                         "description":"An explorer, finding new interesting things with my imagination and creativity.",
+                         "social":{
+                             "linkedin":"https://www.linkedin.com/in/ashray-gupta-9a9028ba/",
+                             "github":"",
+                             "twitter":""
                          } 
                      }
                 ]

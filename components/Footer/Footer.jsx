@@ -69,7 +69,7 @@ const Footer = () => (
       <Copyright>© Copyright 2021 | CodeChef VIT Bhopal | All Rights Reserved</Copyright>
     </Flex>
     <Image>
-        <img src="/imageasset/chefgrad.png" alt="" width="auto" height="280px"></img>
+        <img src="/imageasset/chefgrad.png" alt="" width="auto" height="350px"></img>
     </Image>
     </Container>
   </>
@@ -119,13 +119,11 @@ const Icon = styled.div`
   align-items: center;
   border-radius: 50%;
   font-size: 1.5rem;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.03);
   transition: width .35s ease-in-out;
   transition: height .35s ease-in-out;
   &:hover {
     cursor: pointer;
-    width: 60px;
-    height: 60px; 
+    box-shadow: white 0px 0px 10px 0px;  
   }
   @media (max-width: 991px) {
    font-size:1.3rem;
@@ -190,7 +188,8 @@ const Social = styled.div`
 `;
 
 const Image = styled.div`
-z-index:1;
+  z-index:1;
+  margin-top:1.3rem;
   @media (max-width: 768px) {
      display:none;
    }
