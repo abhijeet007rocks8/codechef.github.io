@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "deploy": " touch out/.nojekyll && gh-pages -d out -t true"
+    "deploy": "yarn build && yarn export && firebase deploy"
   },
   "dependencies": {
     "next": "",
