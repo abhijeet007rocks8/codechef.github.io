@@ -26,7 +26,7 @@ function Teamdivi(node) {
         <Profile>
         <Card>
            <Img>
-           <img src={member.profilepic} width="100%"></img>
+           <img src={member.profilepic} width="100%" height="100%"></img>
               <Description>
                   <DescriptionContent>
                    {member.description}
@@ -149,7 +149,9 @@ const DisplayFlex = styled.div`
     display:flex;
     justify-content:center;
     align-items:center;
-`;
+  `;
+
+
   const Card=styled.span`
     display:flex;
     width: fit-content;
@@ -157,6 +159,7 @@ const DisplayFlex = styled.div`
     max-width:315px;
     //border: 3px solid #102E46;
 `;
+
   const Social=styled.span`
    display:flex;
    margin-left:.6rem;
@@ -211,6 +214,7 @@ font-size:15px;}
     clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
     border: 3px solid #102E46;
     position: relative;
+    display:list-item;
 `;
 
   const DescriptionContent=styled.p`
