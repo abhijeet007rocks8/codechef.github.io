@@ -74,10 +74,10 @@ export default function events_home() {
                         <ETitle>
                             {node.title}
                         </ETitle>
-                        <Details>
+                        <LDetails>
                             {(node.description).length<=175?node.description:(node.description).substring(0,160)+" ......."}
                             <div style={{color:'blue'}}><Link href="/Events">Read More</Link></div>
-                        </Details>
+                        </LDetails>
                     </Discription>
                     </LCard>)}
                     
@@ -107,10 +107,10 @@ export default function events_home() {
                         <ETitle>
                             {node.title}
                         </ETitle>
-                        <Details>
+                        <LDetails>
                         {(node.description).length<=175?node.description:(node.description).substring(0,160)+" ......."}
                             <div style={{color:'blue'}}><Link href="/Events">Read More</Link></div>
-                        </Details>
+                        </LDetails>
                     </Discription>
                     </LCard>}
                     </>
@@ -153,3 +153,21 @@ const EventHome = styled.div`
     margin:1rem -1rem;
     }
 `;
+
+const LDetails = styled.div`
+    color:grey;
+    font-size:1.1rem;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    margin:0.3rem 1rem;
+    font-family:roboto;
+    @media (max-width: 576px) {
+      width:97%; 
+      margin:0.5rem 0.3rem;
+      font-size:1rem;
+    }
+
+`;
+
+
