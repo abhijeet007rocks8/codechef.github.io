@@ -69,7 +69,7 @@ const Footer = () => (
       <Copyright>© Copyright 2021 | CodeChef VIT Bhopal | All Rights Reserved</Copyright>
     </Flex>
     <Image>
-        <img src="/imageasset/chefgrad.png" alt="" width="auto" height="350px"></img>
+        <img src="/imageasset/chefgrad.png" alt="" width="auto" height="100%"></img>
     </Image>
     </Container>
   </>
@@ -94,15 +94,18 @@ const Title = styled.div`
 
 const Flex = styled.div`
   display: flex;
-  margin-top:2rem;
+  margin-top:1.5rem;
   margin-left: 0.2rem;
   flex-direction:column;
   align-items:center;
   justify-content:center;
   flex-wrap:wrap;
   z-index:1;
-
-  @media screen and (min-width: 767px){
+  
+  @media (max-width: 575px) {
+    margin-top:2rem;
+  }
+  @media screen and (min-width: 769px){
     margin-top:9rem;
     margin-left:2rem;
     align-items:unset;
@@ -153,9 +156,10 @@ const Container = styled.div`
   @media (min-width: 575px) {
   }
   
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     background:#4a74f5;
     justify-content:center;
+    align-content:center;
     width: 100%;
   }
   
@@ -175,7 +179,7 @@ const Social = styled.div`
   flex-wrap:wrap;
   z-index:1;
   @media (max-width: 991px) {
-   margin-left:2rem;
+   margin-left:0rem;
   }
   @media (max-width: 575px) {
     margin:0.3rem 5rem;
@@ -190,6 +194,17 @@ const Social = styled.div`
 const Image = styled.div`
   z-index:1;
   margin-top:1.3rem;
+  height:350px;
+  @media (max-width: 1200px) {
+    height:250px;
+    margin-top:0.5rem;
+    margin-right:5rem;
+  }
+  @media (max-width: 1024px) {
+    height:250px;
+    margin-top:0.5rem;
+    margin-right:3rem;
+  }
   @media (max-width: 768px) {
      display:none;
    }
@@ -199,7 +214,7 @@ const Back = styled.img`
     height:400px;
     width:100%;
     display: list-item;
-    @media (max-width: 765px) {
+    @media (max-width: 767px) {
         height:500px;
   }
 `;
@@ -207,7 +222,7 @@ const BackImg = styled.div`
     position:absolute;
     left:0;
     z-index:0;
-    @media (max-width: 767px){
+    @media (max-width: 768px){
         display:none;
     }
 `;
@@ -223,7 +238,7 @@ const Copyright =styled.p`
     color:white;
     text-align:left;
     margin: 0.4rem 0rem;
-    @media (max-width: 767px){
+    @media (max-width: 768px){
     text-align:center;
     margin: 0.4rem 3rem; 
     }

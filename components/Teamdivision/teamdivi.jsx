@@ -151,11 +151,11 @@ const DisplayFlex = styled.div`
     align-items:center;
   `;
 
-
   const Card=styled.span`
     display:flex;
     width: fit-content;
     height: fit-content;
+    overflow:hidden;
     max-width:315px;
     //border: 3px solid #102E46;
 `;
@@ -182,6 +182,7 @@ const DisplayFlex = styled.div`
       width:100%; 
     }
 `;
+
   const Name=styled.p`
 font-weight:bold;
 color: #102E46;
@@ -191,6 +192,7 @@ font-size:20px;
 @media (max-width: 576px){
 font-size:17px;}
 `;
+
   const Job=styled.p`
 margin-block-start: 0em;
 margin-block-end: 0em;
@@ -199,6 +201,7 @@ font-size:15px;
 @media (max-width: 576px){
 font-size:15px;}
 `;
+
   const LineB=styled.div`
     height:9.9rem;
     background:"#0000CD";
@@ -209,6 +212,7 @@ font-size:15px;}
         height:7rem;
     }
 `;
+
   const Img=styled.div`
     -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
     clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
@@ -218,14 +222,17 @@ font-size:15px;}
 `;
 
   const DescriptionContent=styled.p`
-    font-size:1.1rem;
+    font-size:1.05rem;
     display:flex;
     justify-content:center;
     margin: 0.2rem 0.5rem;
     text-align:center;
+    @media (max-width: 800px) {
+      font-size:0.85rem;
+    }
     @media (max-width: 576px) {
-      font-size:0.87rem;
-  }
+      font-size:0.85rem;
+    }
 `;
 
 

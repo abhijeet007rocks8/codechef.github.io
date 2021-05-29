@@ -90,7 +90,7 @@ const DisplayFlex = styled.div`
     @media screen and (max-width:900px)
     {
       flex-direction: column;
-      margin:.5rem;
+      margin:0rem;
       margin-bottom:.7rem;
     }
     @media screen and (max-width:767px)
@@ -184,8 +184,8 @@ const DisplayFlex = styled.div`
     background: #FFFFFF;
     box-shadow:  15px 15px 10px #bababa;
 
-    @media (max-width: 767px) {
-        width:95%;
+    @media (max-width: 768px) {
+        width:90%;
         margin-right: 0rem;
         box-shadow:  10px 10px 5px #bababa;
         padding-bottom:0rem;

@@ -221,7 +221,7 @@ background: #4a74f5;
 border-radius: 65px;
 color: white;
 font-family: Roboto;
-margin: -6.5rem;
+margin: -4.5rem;
 padding: 1.2rem;
 font-size: 2.0rem;
 font-weight: bold;
@@ -236,7 +236,7 @@ transition: border .45s ease-in-out;
     }
 
     @media screen and (max-width:800px){
-        margin:-2rem;
+        margin:-2.5rem;
         padding:.7rem;
         font-size:1.1rem;
         :hover{
@@ -245,7 +245,7 @@ transition: border .45s ease-in-out;
     }
 
     @media screen and (max-width:565px){
-        margin:-1.8rem;
+        margin:-1.7rem;
         padding:0.5rem;
         font-size:.8rem;
         :hover{

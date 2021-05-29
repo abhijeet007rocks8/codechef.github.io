@@ -4,7 +4,7 @@
                   "category":"Faculty Advisor",
                   "members":[
                     {
-                        "name":"Dr. Rahul Kottah",
+                        "name":"Dr. Rahul Kottath",
                         "title":"Faculty Advisor",
                         "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/RahulSir.jpg",
                         "description":"Loaded with knowledge, armed with wit and equipped with an unending thirst for learning, he is our mentor cum friend. Always available to take up all doubts and problems ranging from hilariously idiotic to considerably complex, we are honoured to have Dr. Rahul Kottath as our faculty advisor.",
@@ -27,8 +27,8 @@
                         "description":"He's the one who evangelizes programming and believes in bringing revolution through innovation. Surya is an algorithmic wizard who aims to drive this chapter to the point of no return. For him improving every minute feat & decision matters and that’s what makes him the President of this Chapter.            ",
                         "social":{
                             "linkedin":"https://www.linkedin.com/in/surya-x",
-                            "github":"https://github.com/iiabhayii",
-                            "twitter":"https://twitter.com/iiBAUCEii"
+                            "github":"https://github.com/surya-x",
+                            "twitter":"https://twitter.com/v_surya_kumar"
                         }
                     },
                     {
@@ -109,7 +109,7 @@
                     "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/AadiraAnil.jpeg",
                     "description":"In a world with clichés, her methods are ingenious. She works hard and plays harder. She is ambitious, driven and always brings solutions to the table. We proudly present Aadira Ramakrishnan, Outreach and Logistics Manager.",
                     "social":{
-                        "linkedin":"linkedin.com/in/aadira-ramakrishnan-0694341a0",
+                        "linkedin":"https://linkedin.com/in/aadira-ramakrishnan-0694341a0",
                         "github":"",
                         "twitter":""
                     } 
@@ -118,11 +118,11 @@
                    "name":"Sumedha Poonia",
                     "title":"Content Writer",
                     "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/SumedhaPoonia.jpg",
-                    "description":"In this world of bhuvam bams and biswas, you can't get anywhere without gobsmacking unputdownable content to market yourself. Acknowledging this, we have decided to make our chapter, the coolest one- it is official now! When not writing, she can be found sniffing pages of old books and bugs in your code. Presenting Sumedha Poonia-Content Writer, Codechef VIT Bhopal",
+                    "description":"In this world of bhuvam bams and biswas, you can't get anywhere without gobsmacking unputdownable content to market yourself. Acknowledging this, we have decided to make our chapter, the coolest one- it is official now! When not writing, she can be found sniffing pages of old books and bugs in your code. Presenting Sumedha Content Writer, Codechef VIT Bhopal",
                     "social":{
                         "linkedin":"https://www.linkedin.com/in/sumedha-p-595938134",
-                        "github":"",
-                        "twitter":""
+                        "github":"https://github.com/Sumedha2",
+                        "twitter":"https://twitter.com/sumedha_poonia"
                     } 
                 },
                 {
@@ -181,12 +181,12 @@
                     } 
                 },
                 {
-                   "name":"Vishesh",
+                   "name":"Vishesh Tripathi",
                     "title":"Editorialist",
                     "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/VisheshTripathi.png",
                     "description":"Whether you want to uncover the secrets of the universe, or you just want to pursue a career in the 21st century, programming is essential. Meet our hawk-eyed boy who with his penetrating vision can never miss a new coding riddle. He can code for a whole night, and still be craving for some more in the morning. Presenting our Editorialist, Vishesh Tripathi",
                     "social":{
-                        "linkedin":"",
+                        "linkedin":"https://www.linkedin.com/in/vishesh-tripathi-3a62961b8/",
                         "github":"https://github.com/Vishesht27",
                         "twitter":"https://twitter.com/vishesht27"
                     } 
@@ -197,9 +197,9 @@
                     "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/AnkitSagar.png",
                     "description":"In the world of development, good pace and efficiency is a must. So with the same abilities and functionalities, Presenting Ankit sagar. developer, CodeChef VIT-Bhopal.",
                     "social":{
-                        "linkedin":"",
-                        "github":"",
-                        "twitter":""
+                        "linkedin":"https://www.linkedin.com/in/woinbo/",
+                        "github":"https://github.com/woinbo",
+                        "twitter":"https://twitter.com/woinbo"
                     } 
                 }
                  ]
@@ -220,8 +220,8 @@
                          } 
                      },
                      {
-                        "name":"Nikhil",
-                         "title":"Web Developer",
+                        "name":"Nikhil Kumar Das",
+                         "title":"Developer",
                          "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/Nikhil.jpg",
                          "description":"A visionary seeker of technical know-how , but a lover of something else :) Reference to different folks' codes is the major source to learn. One so fond of dwelling in loop of errors who go for making it work, making it right and making it fast.",
                          "social":{
@@ -236,14 +236,14 @@
                          "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/DevanshuYadav.jpg",
                          "description":"Devanshu - Insightful and Altruistic! What more does a bunch of prominent sages need to jot their ideas down onto the canvas. Devanshu, as Graphic Designer CodeChef VIT-Bhopal, is here to complement his team with a vivid imagination and constant creativity into their commitment.",
                          "social":{
-                             "linkedin":"https://www.linkedin.com/in/nikhil-kumar-das-831a691a8/",
-                             "github":"https://github.com/NikhilKD",
-                             "twitter":"https://twitter.com/NikhilK34109108"
+                             "linkedin":"https://www.linkedin.com/in/devanshu-yadav-1635991b4/",
+                             "github":"https://github.com/devanshuyadav",
+                             "twitter":"https://twitter.com/thevanshu_yadav"
                          } 
                      },
                      {
                         "name":"Deepti Shakya",
-                         "title":"Graphic Designer",
+                         "title":"Social Media Handler",
                          "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/DeeptiShakya.jpg",
                          "description":"Deepti - the last ray of hope when all hope is lost. In the present era of digital content which could be as different as chalk and cheese, we introduce to you all 'Deepti', the Social Media Manager of Code-Chef VIT-Bhopal who will uphold on spreading light around people.",
                          "social":{
@@ -254,7 +254,7 @@
                      },
                      {
                         "name":"Swarnava Laha",
-                         "title":"Graphic Designer",
+                         "title":"Social Media Handler",
                          "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/SwarnavaLaha.jpg",
                          "description":"Swarnava. A student with high dreams and aspiration. My journey with codechef VIT Bhopal is quite fantastic. Managing the social media handle is something that requires much cautioness. Looking forward to explore more aspects of it.",
                          "social":{
@@ -265,7 +265,7 @@
                      },
                      {
                         "name":"Ashray Gupta",
-                         "title":"Graphic Designer",
+                         "title":"Social Media Handler",
                          "profilepic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Team/AshrayGupta.jpg",
                          "description":"An explorer, finding new interesting things with my imagination and creativity.",
                          "social":{

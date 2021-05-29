@@ -186,7 +186,7 @@ const Description=styled.div`
     box-shadow:  15px 15px 10px #bababa;
 
     @media (max-width: 768px) {
-        width:95%;
+        width:90%;
         box-shadow:  10px 10px 7px #bababa;
     }         
 `;
