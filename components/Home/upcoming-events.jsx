@@ -22,7 +22,7 @@ export default function Upcoming() {
                     <Event>{node.title}</Event>
                     <Time>{node.timing}</Time>
                     <Description>{node.description}</Description>
-                    <Register>Register here: <a href={node.register} style={{color:'blue'}}>{node.register}</a></Register>
+                    <Register>Register here: <a href={node.register} style={{color:'blue'}} target="_blank">{node.register}</a></Register>
                 </Text>
                 <Social>
                     <UpcomingE>

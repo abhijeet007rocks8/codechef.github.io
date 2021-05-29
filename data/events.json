@@ -2,30 +2,36 @@
     "events":[
         {
             "id":"1",
+            "title":"CodEnnovate",
+            "eventpic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Events/i06_Esummit.png",
+            "description":"The contest will contain 5 questions and it shall be beginners friendly, with the difficulty increasing in a methodical manner. The participants will be ranked based on the ICPC pattern with a penalty of 10min. Plagarism isn't allowed and will result in disqualification."
+        },
+        {
+            "id":"2",
             "title":"Code Invicta",
             "eventpic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Events/i03_CodeInvicta.png",
             "description":"The coming together of all the 4 campuses in a first of its kind event created quite a buzz among the students, and so did the sessions with the industry expert, and YouTube sensation Amam Dhattarwal. This event was aimed at introducing competitive programming among the beginners and creating a conducive environment for the same by exposing students to the fierce competition in the aforesaid."
         },
         {
-            "id":"2",
+            "id":"3",
             "title":"Leaders League",
             "eventpic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Events/i05_LeadersLeague.png",
             "description":"The 20-question challenging quiz and the fierce competition witnessed in it, along with the mock interview with the industry experts was the major highlight of this event."
         },
         {
-            "id":"3",
+            "id":"4",
             "title":"Resource Buffer",
             "eventpic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Events/i01_ResourceBuffer.png",
             "description":"The four-week series wherein a new topic was introduced and its resources shared on github was the highlight, as this didn’t just familiarise students with coding concepts but also with the basic workings of github."
         },
         {
-            "id":"4",
+            "id":"5",
             "title":"Code For Fun",
             "eventpic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Events/i02_CodeForFun.png",
             "description":"A month long series hosted on Social media, where one question was posted on the insta story every alternate day with it's explanation on the next day. Where the one with most correct answers got a shoutout on our story, every Sunday!"
         },
         {
-            "id":"5",
+            "id":"6",
             "title":"Codeyessey",
             "eventpic":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Events/i04_Codeyessey.png",
             "description":"A Competitive Coding contest was hosted on CodeChef platform in ACM-ICPC Style with easy to medium level of difficulty only. The contest was a prized contest with a prize poll of Rs. 2000/-. It witnessed students competing in large numbers and taking initiatives. It also helped establish a culture of programming, collective growth and self-learning, all of which are sure to thrive in future too. "

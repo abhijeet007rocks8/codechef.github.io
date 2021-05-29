@@ -1,16 +1,16 @@
 {
     "upcoming":[
         {
-            "title":"CodeInvicta",
-            "timing":"24th -26th March 2021 Wednesday-Friday",
-            "poster":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Events/i03_CodeInvicta.png",
-            "description":"The coming together of all the 4 campuses in a first of its kind event created quite a buzz among the students, and so did the sessions with the industry expert, and YouTube sensation Amam Dhattarwal. This event was aimed at introducing competitive programming among the beginners and creating a conducive environment for the same by exposing students to the fierce competition in the aforesaid.",
+            "title":"CodEnnovate",
+            "timing":"3rd June 2021 - 4:15pm-6:15pm",
+            "poster":"https://raw.githubusercontent.com/abhijeet007rocks8/codechef.github.io/master/images/Events/i06_Esummit.png",
+            "description":"The contest will contain 5 questions and it shall be beginners friendly, with the difficulty increasing in a methodical manner. The participants will be ranked based on the ICPC pattern with a penalty of 10min. Plagarism isn't allowed and will result in disqualification.",
             "social":{
-                "linkedin":"https://www.linkedin.com/posts/codechefvitbhopal_codechef-codechefchapters-codechefcollegechapters-activity-6780348373091393536-z6Xs",
-                "instagram":"https://www.instagram.com/p/CMr3p4dJhjN/?utm_source=ig_web_copy_link",
-                "twitter":"https://twitter.com/codechefvitb/status/1373680118992760832/photo/1"
+                "linkedin":"https://www.linkedin.com/posts/codechefvitbhopal_let-your-imagination-soar-the-skies-with-activity-6804037378504843264-IobZ",
+                "instagram":"https://www.instagram.com/p/CPaxo-4Jy5g/?utm_medium=copy_link",
+                "twitter":"https://twitter.com/codechefvitb/status/1398277138873081865"
             },
-            "register":"https://codeinvicta.codechefvit.com"
+            "register":"https://forms.gle/246uDR9tK79GZhgC6"
         }
     ]
 }
